@@ -1,0 +1,67 @@
+{
+  "name": "cordova-plugin-file-downloader",
+  "version": "0.4.0",
+  "description": "Downloads files to persistant Storage on your Phone, checks md5sum if you want, unzips packed files if necessary (For Android and iOS)",
+  "cordova": {
+    "id": "cordova-plugin-file-downloader",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mramonlopez/cordova-plugin-file-downloader.git"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "file",
+    "download",
+    "downloader",
+    "multiple",
+    "md5",
+    "unzip"
+  ],
+  "author": {
+    "name": "Fabian Strachanski, Manuel Ramon Lopez Torres"
+  },
+  "license": "MIT",
+  "gitHead": "a1a4da1e7e9010093632c2de94d586b6f231d43f",
+  "bugs": {
+    "url": "https://github.com/mramonlopez/cordova-plugin-file-downloader/issues"
+  },
+  "homepage": "https://github.com/mramonlopez/cordova-plugin-file-downloader#readme",
+  "_id": "cordova-plugin-file-downloader@0.4.0",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "9.5.0",
+  "_npmUser": {
+    "name": "mramonlopez",
+    "email": "mramon.lopez@gmail.com"
+  },
+  "dist": {
+    "integrity": "sha512-4y260DoKp9aFnij/tdULrz4nu64Ln+wffZgjQfXd60GmhMCjhZ2PBn8Wt2TTIn0gPiOyNF9XVjxBWJ31ZVh+zw==",
+    "shasum": "72d95be57a396cba181bffde6541d17c55bf8857",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-file-downloader/-/cordova-plugin-file-downloader-0.4.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 37804,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbqK5CCRA9TVsSAnZWagAATT8P/i5EXa+WF2jh0Go6g7Me\nOd160UAgsgH5BzWLUCMx4L93sS3MS2ZXAFL7TxYZ92hKbahPN3RxXLGK/9VI\n8IzaPnvj1XtF3WIbcwpd4sHEfb+KLhHMpyoMxqk3RTVutNIwinBmNbEsEKiJ\nNeuiZg5Fz6acz5/gOOzJo1VudEP5vp4zg9AAgPkaUGPv+5gBEqafEnrCgefg\nFKJNF29lAcOC4ywI+OrULly5xFbrIoSnkhuHh/d/maAR4p2U7J8guEDM64eH\nk6nhl5EHyzEA7NSBVHcYLgL1AQEU3E44Mx+LfjFhfrIg3CegtMWD6yYlxE4I\n1r1Sc2uwLm8LP/kZu52pxCy7b/IZsrspzvwpAPaB8UXwZvlsPoHWpDWznmwr\n9W9J8FOe4PTlrr6dfE8yplAVdYeJFsAUw/Noiqc+AhuHOJoZpgkRouMJjXvf\n2rKKHQiw1MLcIKMFlMXEsac4DwgCsJX84JmOTFwzkc+jk2hdEQJ4FGyhrPz2\ndHa7v9g6PWx1Yakv0Mp5F8dK4hBFgTM5kIOmAapOavLwlgd+uHUg2UOVgeLa\nunuHKk32lUHRBLMRcKElD00H3KqGKZgKBwPRwcbjwPvYD7rW5eZnB+iIQL/v\nh0tIKLg2seOuvHh1xUaxL1JInsoxpDZ3yu+ci0hDu1fMqHpEqiVzM/cug2af\n7eLT\r\n=spqS\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "maintainers": [
+    {
+      "name": "mramonlopez",
+      "email": "mramon.lopez@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-file-downloader_0.4.0_1537781314178_0.47045857033213334"
+  },
+  "_hasShrinkwrap": false,
+  "_shasum": "72d95be57a396cba181bffde6541d17c55bf8857",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-file-downloader/-/cordova-plugin-file-downloader-0.4.0.tgz",
+  "_from": "cordova-plugin-file-downloader@latest"
+}

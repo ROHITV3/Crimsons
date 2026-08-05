@@ -1,0 +1,136 @@
+Version 3.6.5
+-------------
+- Change staticmap URL 
+- Remove the version number at index.html (Only need to update version number at the index.js first line)
+- Shift Code Sequence 
+
+
+Version 3.6.4
+-------------
+- Shift databaseIP to V4 upon login and change it permanently at local storage
+- Add encodeURIComponent to wifi and gps webservice
+- Wifi Webservice send back additional attribute "wifi name"
+- Change targetSDK at androidManifest to 26(android 8.0) to match google play requirement (Can set at config.xml)
+- Change login button CSS for translation word too long. 
+- CSS change to static image max width and height of 300. 
+- Static image add click to open up a dialog then touchmove to scroll the image at 1.5 times (Testing phase, rollout first )
+- (Commented) Add back wifiwizard scanning when taking photo with the customer attribute of MobileWifi added.  
+
+Version 3.6.3
+-------------
+- Change GPS Refresh Rate to be overwritten by customer attribute if set at web portal
+- Rebind job list when user click to google for map navigation. 
+- Upgrade push notificaiton plugin
+- Fix GPS geolocation sending back 0, 0 lat long when fail to get lat long
+- Fix signature and drawing img not showing up
+
+Version 3.6.2
+-------------
+- update send location (GPS) ajax to include encodeunicomponent
+
+Version 3.6.1
+-------------
+- Fix numberkeypad unable to save, submit and validate for mandatory
+- Prevent user from submitting twice at form page 
+- Prevent user from clicking on back btn twice when at form page
+- Prevent user from clicking on the job twice on job list page
+- Change the Ajax call for getUserLocation 
+- clearTimeout newUploadQueue before initiate newUploadQueue again
+- Remove wifiwizard scanning when taking photo
+- Wifiwizard scanning will now get location before send webservice to server
+- Login now check if customer need Wifi Scanning, if so, activate wifi scanning and background mode
+
+Version 3.6.0 (Go into Google PlayStore) (Match web version 3.3.9) 
+-------------
+- Upgrade WAM3 to target SDK23 (Android 6.0) from SDK (Android 5.2)
+- Add cleartimeout at takephoto function 
+- Added beacon (bluetooth ble) , camera library form field function
+- Change rating summary calculation. 
+- Change how WAM folder is created and called at app setup. 
+
+Version 3.5.13
+-------------
+- Shift the log folder into WAM folder and edit code to fix the creation of log folder.
+- removed oldMethodFileCheck function where it check for old files
+
+Version 3.5.12
+-------------
+- remove cleartimeout add takephoto function 
+
+Version 3.5.11
+-------------
+- Code cleanup, remove commented code and comment code that arent used.
+- Revise the ways log writing is written into the log file & add more log writing
+- Add clear cache function upon phone setup (apparently all the pictures taken from camera function are stored in cache) 
+- Add cleartimeout add takephoto function 
+
+Version 3.5.10
+-------------
+- Add setTimeout(Spinout()) at camera function . 
+- Remove background refresh for job when user enter form page, add back refresh when user enter job list page. 
+- change uploading ajax call action to "upload" from "uploadunicode" (Line 2629, 3403,3706)
+- added additional logic to check if the camera img is still loading.png (Line 4538)
+- added logging feature to store last 7 days logs.
+
+Version 3.5.9
+---------------
+- fix to gallery image unable to delete due to changing of photopreview variable
+
+Version 3.5.8
+-----------------
+-- Added when push notification come in, auto reload job 
+-- Change variable for photopreview. 
+
+Version 3.5.7
+----------
+-- Bug fixed for camera not firing in click event on certain phone. 
+-- Code cleanups (comment some of the old form submission function)
+
+Version 3.5.6
+--------------
+-- Bug fixed for photo preview not aligned to center, increase to show full screen.
+
+Version 3.5.5
+--------------
+-- Increase upload queue timeout and upload delay timing
+-- Bug fixed for photo preview not aligned to center
+-- Bug fixed for app stuck at "Photo Processing" after using camera with Geo Tag.
+
+Version 3.5.4
+--------------
+-- Fixed bug with push notification where it is not registering
+-- Fixed bug with camera function photo not back up/save to gallery
+-- Fixed mandatory validation to rating and radio buttons.
+
+Version 3.5.3
+--------------
+- Add Dynamic Camera Function 
+- Fixed bug with broadcast job
+- Fixed Saving issue with text, radio button
+
+Version 3.5.2
+-------------
+- Change the way form data is stored
+- Fixed bug with adHoc Job
+- Fixed bug with Rating field
+
+Version 3.4.3
+-------------
+- added multiple image selection for gallery function
+- replace barcode scanner plugin with newer version
+
+Version 3.4.2
+-------------
+- beep tone when receive new job after clicking reload button
+
+Version 3.4.1
+-------------
+- jobs will be waiting to be uploaded if loses connection
+- auto scroll to the first element of the collapser
+- compute function
+
+Version 3.4.0
+-------------
+- email function
+- auto collapse function for collapser
+- timestamp and datestamp can be removed from photos

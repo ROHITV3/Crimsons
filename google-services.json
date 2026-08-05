@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1046366413061",
+    "firebase_url": "https://cool-agility-714.firebaseio.com",
+    "project_id": "cool-agility-714",
+    "storage_bucket": "cool-agility-714.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046366413061:android:51a098a5c4c21cca",
+        "android_client_info": {
+          "package_name": "com.v3.wam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046366413061-vcmf6h45m55n4b51llsb7upcl7vqqelr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa8BFFhD3QbrSD54kMaBGrT-7UZ1mJRjQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046366413061:android:fd339c2c1ca9543d",
+        "android_client_info": {
+          "package_name": "v3.v3nity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046366413061-vcmf6h45m55n4b51llsb7upcl7vqqelr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa8BFFhD3QbrSD54kMaBGrT-7UZ1mJRjQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

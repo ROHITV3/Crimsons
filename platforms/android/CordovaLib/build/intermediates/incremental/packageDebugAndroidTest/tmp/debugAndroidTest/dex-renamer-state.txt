@@ -1,0 +1,4 @@
+#Tue Jul 21 12:42:08 IST 2026
+base.0=G\:\\2026 ANDROID PROJECT\\ACPS WORKING\\not touch\\Latest JIACPS\\JIACPS\\JIACPS\\platforms\\android\\CordovaLib\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

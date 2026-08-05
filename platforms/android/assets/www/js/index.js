@@ -1,10 +1,10 @@
 // ✔
-window.localStorage["version"] = "1.4"; //set app version number
+window.localStorage["version"] = "1.4.0"; //set app version number
 // var network = "zonglipub"; //global variable that decides which databaseIP to connect to
 var initialheight; //used to record initial screen height
 //var databaseIP = 'http://203.125.7.40/JobAssignmentACPS'; //global databaseIP variable
-var databaseIP = 'http://www.test.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
-//var databaseIP = 'http://www.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
+//var databaseIP = 'http://www.test.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
+var databaseIP = 'http://www.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
 var lang; //global variable to store languageJson
 var spinnerDelay = 50;
 var appDirectory;
@@ -92,6 +92,8 @@ function onPushNotification() { //Refresh job when there is new push notificatio
 }
 
 function setup() {
+
+
     initialheight = $('body').height();
     document.addEventListener("backbutton", onBackKeyDown, false);
 
@@ -678,7 +680,7 @@ function downloadFileFromUrl(downloadUrl, appRefNo)
         navigator.notification.alert('Unable to download application files.', function () {
                     }, 'Error', 'OK');
     },
-    false,
+    true,
     {
     });
 }
@@ -1131,6 +1133,7 @@ function login() {
                 }, 'Connection Required', 'OK');
         return;
     }
+     /*console.log("Current User-Agent: " + navigator.userAgent);*/
 
     var user = $('#loginUser').val(), password = $('#loginPassword').val(), unitid = $('#unitId').val();
     unitid = 'sst1';
@@ -1166,9 +1169,24 @@ function login() {
             $.ajax({
                 url: loginURL,
                 type: 'GET',
-                timeout: 15000,
-                success: function (data) {
-                    console.log('Data is:',JSON.stringify(data));
+                timeout: 60000,
+                success: function (data, textStatus, jqXHR) {
+
+               /*     alert("===== LOGIN RESPONSE  =====");
+
+                    alert("Status Code      : " + jqXHR.status);
+                    alert("Status Text      : " + jqXHR.statusText);
+
+                    alert("Response Headers : " + jqXHR.getAllResponseHeaders());
+
+                    alert("Response Text    : " + jqXHR.responseText);*/
+
+                    console.log("Status:", jqXHR.status);
+                    console.log("Headers:", jqXHR.getAllResponseHeaders());
+                    console.log("Response:", jqXHR.responseText);
+
+                    // Your existing code
+                    console.log('Data is:', JSON.stringify(data));
                     if (data.result) {
                         console.log(">> Log In Success...");
                         window.localStorage['loginUser'] = user;
@@ -1185,13 +1203,14 @@ function login() {
 
                         if(data.data.gpsRefreshRate != undefined && data.data.gpsRefreshRate > 0){ // customer attributes GPSRefreshRate=60000s
                             gpsRate = data.data.gpsRefreshRate;
-                            cordova.plugins.backgroundMode.enable();
-                            cordova.plugins.backgroundMode.on('activate', function() {
-                                cordova.plugins.backgroundMode.disableWebViewOptimizations();
-                            });
+
                         } else {
                             gpsRate = 60000; // reset back to original
                         }
+                         cordova.plugins.backgroundMode.enable();
+                                                    cordova.plugins.backgroundMode.on('activate', function() {
+                                                        cordova.plugins.backgroundMode.disableWebViewOptimizations();
+                                                    });
                         if (appDirectory != undefined && uploadDirectory != undefined) {
                             setTimeout(function () {
                                 loadJob("all");
@@ -1259,6 +1278,29 @@ function login() {
                 },
                 error: function (error, errorText, errorThrown) {
                     console.log("Error: " + error.responseText + " errorText: " + errorText + " errorThrown: " + errorThrown);
+
+    alert("===== LOGIN ERROR =====");
+
+
+    alert("Status Code      : " + error.status);
+    alert("Status Text      : " + error.statusText);
+
+    /*alert("Response Headers : " + error.getAllResponseHeaders());*/
+
+  /*  alert("Response Text    : " + error.responseText);
+
+    alert("Error Text       : " + errorText);
+    alert("Error Thrown     : " + errorThrown);
+
+    alert("Ready State      : " + error.readyState);
+
+    alert("Online           : " + navigator.onLine);
+    alert("User Agent       : " + navigator.userAgent);*/
+
+    console.log("Status:", error.status);
+    console.log("Headers:", error.getAllResponseHeaders());
+    console.log("Response:", error.responseText);
+    console.log(error);
                     /*
                      * This behavior below is removed for ACPS.
 

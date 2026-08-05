@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\launcher_icon.png",
+        "source": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\drawable-hdpi\\launcher_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_next_item.png",
+        "source": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_remove.png",
+        "source": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\image_bg.9.png",
+        "source": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\drawable-hdpi\\image_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_previous_item.png",
+        "source": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading_icon.png",
+        "source": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\drawable-hdpi\\loading_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shopper_icon.png",
+        "source": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\drawable-hdpi\\shopper_icon.png"
+    }
+]

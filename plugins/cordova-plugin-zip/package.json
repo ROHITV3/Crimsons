@@ -1,0 +1,72 @@
+{
+  "name": "cordova-plugin-zip",
+  "version": "3.1.0",
+  "description": "Unzips zip files",
+  "cordova": {
+    "id": "cordova-plugin-unzip",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MobileChromeApps/cordova-plugin-zip.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.3.0"
+    }
+  ],
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/MobileChromeApps/zip/issues"
+  },
+  "homepage": "https://github.com/MobileChromeApps/zip",
+  "gitHead": "977b57d2a5e4bf8d8b7671e5b498aa8ca098fbe4",
+  "_id": "cordova-plugin-zip@3.1.0",
+  "scripts": {},
+  "_shasum": "176c8248ea20d39f1cf959ef5e6156acca96b217",
+  "_from": "cordova-plugin-zip@>=3.1.0",
+  "_npmVersion": "3.3.8",
+  "_nodeVersion": "0.10.29",
+  "_npmUser": {
+    "name": "agrieve",
+    "email": "agrieve@chromium.org"
+  },
+  "maintainers": [
+    {
+      "name": "agrieve",
+      "email": "agrieve@chromium.org"
+    },
+    {
+      "name": "mmocny",
+      "email": "mmocny@gmail.com"
+    },
+    {
+      "name": "clelland",
+      "email": "iclelland@google.com"
+    },
+    {
+      "name": "maxw",
+      "email": "maxw@chromium.org"
+    }
+  ],
+  "dist": {
+    "shasum": "176c8248ea20d39f1cf959ef5e6156acca96b217",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-zip/-/cordova-plugin-zip-3.1.0.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-zip-3.1.0.tgz_1456240954165_0.5940777787473053"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-zip/-/cordova-plugin-zip-3.1.0.tgz"
+}

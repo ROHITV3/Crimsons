@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+       
+        <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+		<!-- <link rel="stylesheet" href="lib/jquery-ui.css" /> -->
+		<script src="lib/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).bind("mobileinit", function(){
+				$.mobile.pushStateEnabled = false;
+			});
+		</script>
+		<script src="lib/jquery.mobile-1.4.5.min.js"></script>
+		<script src="lib/jquery-ui.min.js"></script> <!-- must have this for PN to work --> 
+                <!--<script src="js/jquery-2.1.4.min.js"></script>-->
+		<script src="cordova.js"></script>
+		<script src="lib/base64.min.js"></script>
+		<script src="lib/jsignature/jSignature.min.js"></script>
+		
+		<script type="text/javascript" src="lib/spark-md5.min.js"></script>
+		
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/index.js"></script>
+                <script src="js/pushNotificationHandler.js"></script>
+                <script src="js/registerPN.js"></script>
+                <script src="js/bluetooth.js"></script>
+                
+                <!--<script src="cordova.js"></script>-->
+    </head>
+    <body onResize="onResize()">
+    	<!---------------  Confirm Popup --------------->
+	<div data-role="popup" id="confirmPopup" data-overlay-theme="b" data-shadow="true" data-dismissible="false" class="ui-corner-all" data-position-to="window" >
+                <div class="confirmTitle"> </div>
+                <div class="confirmText"> </div>
+                <div class="confirmBtn"> </div>
+	</div>
+	<!-------------  END OF Confirm Popup -------------->
+        
+        <!---------------  Confirm Popup for camera and gallery images--------------->
+	<div data-role="popup" data-rel="popup" id="confirmPopupImages" data-overlay-theme="b" data-shadow="true" data-dismissible="false" class="ui-corner-all" style="display:none; width:100%; position:fixed; top:52px; left:0px;" >
+                <div class="confirmTitle"> </div>
+                <div class="confirmText"> </div>
+                <div class="confirmBtn"> </div>
+	</div>
+	<!-------------  END OF Confirm Popup -------------->
+        
+	<!-------------  Signature Popup -------------->
+	<div id="signaturepopup"> 
+                <div id="signature">
+                        <div class="verifyTitle">Signature</div>
+                        <div class="verifyText"><span>Please sign here.</span><br>
+                                <div id="signatureview"> </div>
+                        </div>
+                        <div class="verifyBtn">
+                                <div class="verify0">✂</div>
+                                <div class="verify1">✔</div>
+                        </div>
+                </div>	
+	</div>
+        <!-------------  END OF Signature Popup -------------->
+        
+        <!-------------  Signature Popup -------------->
+	<div id="yesnopopup"> 
+                <div id="yesno">
+                    <div id="yesnoTitle"></div>
+                    <div id="yesnoText"><br></div>
+                    <div id="yesnoBtnDiv">
+                            <div id="noBtn">CANCEL</div>
+                            <div id="yesBtn">OK</div>
+                    </div>
+                </div>	
+	</div>
+        <!-------------  END OF Signature Popup -------------->
+        
+        <!-------------  Image Popup -------------->
+	<div id="imagepopup"  data-role="popup" data-rel="popup" data-overlay-theme="b" data-shadow="true" data-dismissible="true" class="ui-corner-all" style="display:none; position:fixed; top:0px; left:0px;" > 
+                <div id="image">
+                    <img src=""> 
+                </div>	
+	</div>
+        <!-------------  END OF Image Popup -------------->
+        
+        <!-------------  Drawing Popup -------------->
+	<div id="drawingpopup" style=""> 
+                <div id="drawing">
+                        <div class="verifyTitle">Drawing</div>
+                        <div class="verifyText"><span>Please draw here.</span><br>
+                                <div id="drawingview"> </div>
+                        </div>
+                        <div class="verifyBtn">
+                                <div class="verify0">✂</div>
+                                <div class="verify1">✔</div>
+                        </div>
+                </div>
+	</div>
+        <!-------------  END OF Drawing Popup -------------->
+                	
+        
+        <!-------------  Index Page  ---------------->
+        <div data-role="page" class="ui-page" id="index">
+            <div id="backgroundoverlay"></div>
+            
+            <div id="loginBox">
+                    <form action="javascript:login();">
+                            <img class="loginLogo" src="img/acps-final-logo-edited.png" />
+                            <!--<span class="loginLogoText">Powered by V3 Smart Technologies Pte. Ltd.</span>-->
+                            <input type="text" name="loginUser" id="loginUser" class="loginInput" placeholder="Username" data-theme="a"/>
+                            <input type="password" name="loginPassword" id="loginPassword" class="loginInput" placeholder="Password" data-theme="a" />
+                            <div id="registerDeviceText">Register New Device</div>
+                            <div id="registerShell">
+                                    <input type="text" name="registerDeviceBtn" id="registerDeviceBtn" class="loginInput" placeholder="Register Device" data-theme="a" />
+                            </div>	
+                            <div id="unitIdShell">
+                                    <input type="text" name="unitId" id="unitId" class="loginInput" placeholder="Unit ID" />
+                            </div>
+                            <input class="loginBtn" data-role="none" type="submit" value="LOG IN" />
+                    </form>
+            </div>         
+            <img id="settingsBtn" src="img/settings.png" style="visibility: hidden"/>
+            <div id="customer"> </div>
+            <div id="version"><h4>v1.0.0</h4></div>
+   	</div>
+        <!-------------  END OF Index Page  ----------------->
+        
+        <!-------------  Settings Page  ---------------->
+	<div data-role="page" class="ui-page" id="settings">
+		<div data-role="header" data-theme="a" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
+			<h1>Settings</h1><div class="navBtn top left backBtn"><img src="img/arrow-left-c.png" /></div>
+		</div>
+		<div class="settingsList">
+		<h2 id="languageHeader">Language</h2>
+		<select id="languageSelect"></select>
+		</div>
+	</div>
+        <!-------------  END OF Settings Page  ----------------->
+        
+        <!-------------  Main Page  ---------------->
+	<div data-role="page" class="ui-page" id="main">
+            <div id="backgroundoverlay"></div>
+            <div class="whiteOverlay40"></div>
+            
+            <link rel="stylesheet" href="css/tasklist.css" />
+            <div data-role="header" data-theme="a" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
+                            <!-- <h1>Job List</h1> -->
+                            <!-- <div class="navBtn top left exitBtn"><img src="img/power.png" /></div> -->
+                    <div class="navBtn top left logoutBtn"><img src="img/log-out.png" /></div>
+                    <div class="navBtn top right adhocBtn"><img src="img/add.png" /></div>
+            </div>
+            <div class="jobList">
+                    <ul> </ul>
+            </div>
+            <div class="footer" data-role="footer" data-theme="a" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
+                    <div class="navBtn bot left" id="sortBtn"><img src="img/sort.png" /></div>
+                    <div class="jobCount"><span>-</span><img src="img/job-white.png" /></div><div class="uploadCount"><span>-</span><img src="img/upload.png" /></div>
+                    <div class="lastUpdate">Last Updated: <span>-</span></div>
+                    <div class="navBtn bot right refreshBtn"><img src="img/refresh.png" /></div>			
+                    <div style="display:none" class="navBtn bot left queuelistBtn"><img src="img/queuelist.png" /></div>
+            </div>
+	</div>
+        <!-------------  END OF Main Page  ----------------->
+
+        <!-------------  Queue Page  ---------------->
+	<div data-role="page" class="ui-page" id="queue" >
+		<link rel="stylesheet" href="css/queuelist.css" />
+		<div data-role="header" data-theme="a" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
+			<h1>Queue List</h1>
+			<div class="navBtn top left backBtn"><img src="img/arrow-left-c.png" /></div>
+			<div class="navBtn top right logBtn"><img src="img/info_off.png" /></div>
+		</div>
+		<div class="logView">
+			
+		</div>
+                
+	</div>
+        <div data-role="page" class="ui-page" id="admin" >
+            <link rel="stylesheet" href="css/queuelist.css" />
+            <div data-role="header" data-theme="a" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
+                    <h1>Admin Page</h1>
+                    <div class="navBtn top left backBtn"><img src="img/arrow-left-c.png" /></div>
+            </div>
+
+            <div class="logFiles">
+            </div>
+            <input class="" id="copyToStorage"  type="button" value="copyLogFilesToStorage" />
+            <input class="" id="copyJobToStorage"  type="button" value="copyJobFileToStorage(Not Using)" />
+            <br>
+            <input class="" id="deleteAllFiles"  type="button" value="deleteAllFiles" />
+            <div id="adminUpload">
+            </div>
+            <div id="adminWAM"></div>
+	</div>
+        <!-------------  END OF Queue Page  ----------------->
+
+        <!-------------  Form Page  ---------------->
+	<div data-role="page" class="ui-page" id="form">
+            <div id="backgroundoverlay"></div>
+            <div class="whiteOverlay70"></div>
+            
+            <link rel="stylesheet" href="css/form.css" />
+            <div data-role="header" data-theme="a" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
+                    <h1>Form Editor</h1><div class="navBtn top left backBtn"><img src="img/arrow-left-c.png" /></div><div class="navBtn top right submitBtn"><img src="img/android-send.png" /></div>
+            </div>	
+            <div role="main" class="ui-content" id="form_content"></div>
+            <div class="footer" data-role="footer" data-theme="a" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
+                    <div class="navBtn bot right saveBtn"><img src="img/save.png" /></div>
+            </div>
+            
+	</div>
+        <!-------------  END OF Form Page  ----------------->	
+    </body>
+</html>

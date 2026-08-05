@@ -1,0 +1,5 @@
+com.cl.acps.test.CordovaLib-androidTest-0 G:\2026 ANDROID PROJECT\ACPS WORKING\not touch\Latest JIACPS\JIACPS\JIACPS\platforms\android\CordovaLib\build\generated\res\resValues\androidTest\debug
+com.cl.acps.test.CordovaLib-mergeDebugAndroidTestResources-1 G:\2026 ANDROID PROJECT\ACPS WORKING\not touch\Latest JIACPS\JIACPS\JIACPS\platforms\android\CordovaLib\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.cl.acps.test.CordovaLib-mergeDebugAndroidTestResources-2 G:\2026 ANDROID PROJECT\ACPS WORKING\not touch\Latest JIACPS\JIACPS\JIACPS\platforms\android\CordovaLib\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.cl.acps.test.CordovaLib-debugAndroidTest-3 G:\2026 ANDROID PROJECT\ACPS WORKING\not touch\Latest JIACPS\JIACPS\JIACPS\platforms\android\CordovaLib\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.cl.acps.test.CordovaLib-debug-4 G:\2026 ANDROID PROJECT\ACPS WORKING\not touch\Latest JIACPS\JIACPS\JIACPS\platforms\android\CordovaLib\build\intermediates\packaged_res\debug\packageDebugResources

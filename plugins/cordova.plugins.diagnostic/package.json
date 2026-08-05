@@ -1,0 +1,91 @@
+{
+  "version": "4.0.10",
+  "name": "cordova.plugins.diagnostic",
+  "cordova_name": "Diagnostic",
+  "description": "Cordova/Phonegap plugin to check the state of Location/WiFi/Camera/Bluetooth device settings.",
+  "author": {
+    "name": "Dave Alden"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpa99c/cordova-diagnostic-plugin.git"
+  },
+  "issue": "https://github.com/dpa99c/cordova-diagnostic-plugin/issues",
+  "cordova": {
+    "id": "cordova.plugins.diagnostic",
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "android",
+    "ios",
+    "windows",
+    "phonegap",
+    "diagnostic",
+    "wifi",
+    "location",
+    "gps",
+    "camera",
+    "bluetooth",
+    "settings"
+  ],
+  "types": "./cordova.plugins.diagnostic.d.ts",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "elementtree": "^0.1.6",
+    "minimist": "1.2.0"
+  },
+  "scripts": {
+    "postinstall": "node ./scripts/apply-modules.js"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "4.0.0": {
+        "cordova-ios": ">=4.3.0",
+        "cordova-android": ">=6.3.0",
+        "cordova": ">=7.1.0"
+      }
+    }
+  },
+  "gitHead": "97ae72adb8c5f6798796b640da76cf1d3565722f",
+  "bugs": {
+    "url": "https://github.com/dpa99c/cordova-diagnostic-plugin/issues"
+  },
+  "homepage": "https://github.com/dpa99c/cordova-diagnostic-plugin#readme",
+  "_id": "cordova.plugins.diagnostic@4.0.10",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "8.11.1",
+  "_npmUser": {
+    "name": "davealden",
+    "email": "dave@workingedge.co.uk"
+  },
+  "dist": {
+    "integrity": "sha512-t+3+s/7oD3gn0E5hXVmpkttIi70rvicMzYpYAjyzZD6orROYw5lNsG3qOI2VIxBJxd2S+kMBm7cYkcdRHqYU6g==",
+    "shasum": "f3ba207544eab755eaa4e4111db28c54b8c1f755",
+    "tarball": "https://registry.npmjs.org/cordova.plugins.diagnostic/-/cordova.plugins.diagnostic-4.0.10.tgz",
+    "fileCount": 71,
+    "unpackedSize": 651935,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbkDl9CRA9TVsSAnZWagAArtAP/2JHDlsq57n/EQGvf9QF\npOby8CMhgNFGkpVfxrqg5cSY1n36a0uEtWG/QPKxfa2bGgqodEAvBHD10kii\n2HAphf/UG/NszYuUMQyjGCjgTr+3eFDFU5dv3oK2vREblupPUwhPdrWQSTWo\nceD+YeOUBXqxnPD+VwDAAt3aiXWh1WGive4RNNduahoefOSOkTa8ZiY5B9ts\nbNooQ/JVUhLq361RBLGbF8wANqOVepFgo6Nr6j3JZq5SFKy/L1RZLSxLKSlC\n7TWmMFamsCWviXQDwowgGbfuB+hU2u+dPBKVzWsAMvXVM0SMsPi9X6RKJHYq\nA+zmZaEQsR6pYt9ao9ggY6r3zovJbVgIhGDeRHITJ1pw4eWsCDE/Av8Issrw\npOEkgy8PPov4DmvKLIii2QhHPP6YRn9weH1dHdtGQJKxwsNH8n4dboM9IhPo\nDIoyrc32lXI2XJ033GGQLsQjXKSMb6ZWNsC1rKybCF1SdNc3td3q6bSv+Sfh\nxq6MSV1xDMfR7lde2lzBSunXeliO61vNG/lGxArs9S0rkru3/J075ozjn2DF\ncJy+Qmjxz/Q6KWxYOL/WGurTgNDUXD8/Xz8P/rV1FETO1DGZQzpcUr3QZ7mf\nn5E4AoCejeRe7v0PvopUR0+EppXb51Y0QqdChngwKozLiN2lgpihSKou8OfU\n8QPz\r\n=8V/b\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "maintainers": [
+    {
+      "name": "davealden",
+      "email": "dave@workingedge.co.uk"
+    }
+  ],
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova.plugins.diagnostic_4.0.10_1536178556018_0.9662722855576316"
+  },
+  "_hasShrinkwrap": false,
+  "_shasum": "f3ba207544eab755eaa4e4111db28c54b8c1f755",
+  "_resolved": "https://registry.npmjs.org/cordova.plugins.diagnostic/-/cordova.plugins.diagnostic-4.0.10.tgz",
+  "_from": "cordova.plugins.diagnostic@>=4.0.5 <5.0.0"
+}

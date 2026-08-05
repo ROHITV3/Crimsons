@@ -1,0 +1,48 @@
+#queue .queueList ul {
+	margin: 0;
+	padding: 0;
+	width:100%;
+}
+
+
+#queue .queueList li {
+	border: 1px solid black;
+	list-style: none;
+    padding: 10px 5px;
+    margin: 5px 1px;
+}
+
+#queue .queueList li span {
+	float: right;
+    border: 1px solid grey;
+    padding: 2px 10px;
+	font-weight: bold;
+	margin-left: 2px;
+	color: white;
+}
+
+#queue .queueList li div {
+	display: inline-block;
+}
+
+#queue .queueList li .delBtn {
+	background: red;
+}
+
+#queue .queueList li .upBtn {
+	background: green;
+}
+
+#queue .logView {
+	display: none;
+	position: fixed;
+	top: 55px;
+	left: 5px;
+	background: white;
+	width: 95%;
+	height: 80%;
+	padding: 3px;
+	border: 3px solid black;
+	overflow: auto;
+}
+

@@ -1,0 +1,106 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.phonegap.plugins.barcodescanner": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "com.pylonproducts.wifiwizard": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-app-event": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-background-mode": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-ble-central": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-datepicker": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-image-picker": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-pushplugin": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-spinner-dialog": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-save-image-gallery": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cz.blocshop.socketsforcordova": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.cl.acps"
+    },
+    "cordova-plugin-file-downloader": {
+      "PACKAGE_NAME": "com.cl.acps"
+    },
+    "com.testfairy.cordova-plugin": {
+      "PACKAGE_NAME": "com.cl.acps"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.v3.wam"
+    },
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.cl.acps"
+    },
+    "cordova-plugin-file-md5": {
+      "PACKAGE_NAME": "com.cl.acps"
+    }
+  }
+}

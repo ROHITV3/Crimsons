@@ -1,0 +1,3 @@
+file.reference.NetBeansProjects-JobInspectionACPS=.
+files.encoding=UTF-8
+site.root.folder=${file.reference.NetBeansProjects-JobInspectionACPS}

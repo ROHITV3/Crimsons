@@ -1,0 +1,67 @@
+{
+  "name": "com.testfairy.cordova-plugin",
+  "version": "2.22.1",
+  "description": "TestFairy SDK plugin for Cordova",
+  "cordova": {
+    "id": "com.testfairy.cordova-plugin",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testfairy/testfairy-cordova-plugin.git"
+  },
+  "keywords": [
+    "cordova",
+    "testfairy",
+    "tests",
+    "monitoring",
+    "distribution",
+    "testflight",
+    "cordova-ios",
+    "cordova-android",
+    "ecosystem:cordova"
+  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/testfairy/testfairy-cordova-plugin/issues"
+  },
+  "homepage": "https://github.com/testfairy/testfairy-cordova-plugin",
+  "gitHead": "d57c677144bee129c713cad5b01d111af7a9905b",
+  "_id": "com.testfairy.cordova-plugin@2.22.1",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "9.4.0",
+  "_npmUser": {
+    "name": "testfairy",
+    "email": "support@testfairy.com"
+  },
+  "dist": {
+    "integrity": "sha512-CCfCv+N13vk4HpR5XFuJoCihqkdlOEtNSlPbG4W5RdhChk4C45uPzbAxUG/v293awxF3PABTH5uYw+s02M0LNQ==",
+    "shasum": "dcf936fab1bfecfed7c6e4d849f3c508758166ca",
+    "tarball": "https://registry.npmjs.org/com.testfairy.cordova-plugin/-/com.testfairy.cordova-plugin-2.22.1.tgz",
+    "fileCount": 22,
+    "unpackedSize": 31328716,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd75QfCRA9TVsSAnZWagAAOnwP+wQxBrSdMT13GNCfWziB\niyChPuy9dawPXEV8q4CTDu/MrYXmCeRUtaXuGVSxNkUAHlEjBuPV9GBgEBSQ\nnFeRVeY7pEXv+Nzs7ASVfSi3laW0zf1p5XChMQ99/0hnrcAhmiTFHyTq4Aw/\n7p04N8VSitS7KoPeP0UiSISytAla4PisExlAW9+lGsdTI8jC0pzP2DHevMv7\nijSjtqpgox8RNrSlnvHO3SS3PGac1bIDDB49MH5M8zYxLjSed5Txhrn/GfDV\no5OA2iXqujnq7PTL9qP1Y6Rtdb2nzleRMG0qY2Z/GITzFVyOSMY+2DIzr07L\nNM8L+G5Z0Gx4vNodIi5JcsNcgXashFfwO1SFXba6q3rzPY6ZVg7pfogHr59u\naJ4whVkiEfkEtT14Z1j48ajOdLkYjRwDTiNOfy1GGgeupDhknnmODr+FQs66\nsQTcLFJ51pYYW17ZG6L1GmHUoLEMlaUrQK98Uh6Oc6w6JwzDCJGJgtTOzag0\njtPbqQqnbWLHGN2jXV6YgITAIFLATN893+bv9rmeKrckuam+PBgKP8aoAq4S\nYrblTDesC3+TRwd1KDsRistwAd8PdJNnBl88LqKBQqdSI21iJkywzfJVQa/4\nFoffnsK+JCVlUXxMmYtBB7vkgKqcKcyPM+8P3H0JUfyQstzZp5P3LuUvy6B3\nd36N\r\n=XIkY\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "maintainers": [
+    {
+      "name": "testfairy",
+      "email": "support@testfairy.com"
+    }
+  ],
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/com.testfairy.cordova-plugin_2.22.1_1575982110354_0.9280681143778748"
+  },
+  "_hasShrinkwrap": false,
+  "_shasum": "dcf936fab1bfecfed7c6e4d849f3c508758166ca",
+  "_resolved": "https://registry.npmjs.org/com.testfairy.cordova-plugin/-/com.testfairy.cordova-plugin-2.22.1.tgz",
+  "_from": "com.testfairy.cordova-plugin@latest",
+  "readme": "ERROR: No README data found!"
+}

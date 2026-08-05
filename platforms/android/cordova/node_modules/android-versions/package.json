@@ -1,0 +1,69 @@
+{
+  "name": "android-versions",
+  "version": "1.3.0",
+  "description": "Get the name, API level, version level, NDK level, or version code from any version of Android.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/**/*.js",
+    "jshint": "jshint ."
+  },
+  "dependencies": {
+    "semver": "^5.4.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.2",
+    "tape": "^4.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvoiss/android-versions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dvoiss/android-versions/issues"
+  },
+  "keywords": [
+    "android",
+    "version",
+    "versions",
+    "ndk",
+    "nougat",
+    "marshmallow",
+    "api",
+    "level"
+  ],
+  "pre-commit": [
+    "jshint"
+  ],
+  "author": {
+    "name": "dvoiss"
+  },
+  "license": "MIT",
+  "gitHead": "f9772c197a75709df703a2cf339b4427032b08d3",
+  "homepage": "https://github.com/dvoiss/android-versions#readme",
+  "_id": "android-versions@1.3.0",
+  "_npmVersion": "5.5.1",
+  "_nodeVersion": "8.9.1",
+  "_npmUser": {
+    "name": "dvoiss",
+    "email": "davidvoiss@gmail.com"
+  },
+  "dist": {
+    "integrity": "sha512-d/i1G16Oaw/T1EvskUA7Oo1vIQVK/0ZlpQgZfYVBwg6v/9FBE3QV66g5N1/bTHpRml8tFLxh+KoTw5DokK9c+A==",
+    "shasum": "ce6f3eae2e165ce4ed49b89beb68014741093044",
+    "tarball": "https://registry.npmjs.org/android-versions/-/android-versions-1.3.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "dvoiss",
+      "email": "davidvoiss@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/android-versions-1.3.0.tgz_1516678569554_0.20621655881404877"
+  },
+  "directories": {},
+  "_shasum": "ce6f3eae2e165ce4ed49b89beb68014741093044",
+  "_resolved": "https://registry.npmjs.org/android-versions/-/android-versions-1.3.0.tgz",
+  "_from": "android-versions@>=1.2.0 <2.0.0"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "cordova-plugin-pushplugin",
+  "version": "2.6.3",
+  "description": "\n\t\tThis plugin allows your application to receive push notifications on Android, iOS, WP8 and Windows8 devices.\n\t\tAndroid uses Google Cloud Messaging.\n\t\tiOS uses Apple APNS Notifications.\n\t\tWP8 uses Microsoft MPNS Notifications.\n\t\tWindows8 uses Microsoft WNS Notifications.\n\t",
+  "cordova": {
+    "id": "cordova-plugin-pushplugin",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8"
+    ]
+  },
+  "dependencies": {
+    "plugman": "0.23.3"
+  },
+  "devDependencies": {
+    "plugman": "0.23.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orcasgit/PushNotification.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "cordova-windows8"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Telerik (originally created by Bob Easterday)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orcasgit/PushNotification/issues"
+  },
+  "homepage": "https://github.com/orcasgit/PushNotification#readme"
+}

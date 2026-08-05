@@ -1,0 +1,3199 @@
+[
+    {
+        "outputFile": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 94,
+                    "endOffset": 195
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 94,
+                        "endOffset": 195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 200,
+                    "endColumn": 93,
+                    "endOffset": 289
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 200,
+                        "endColumn": 93,
+                        "endOffset": 289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 294,
+                    "endColumn": 101,
+                    "endOffset": 391
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 294,
+                        "endColumn": 101,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 396,
+                    "endColumn": 81,
+                    "endOffset": 473
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endColumn": 81,
+                        "endOffset": 473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 478,
+                    "endColumn": 97,
+                    "endOffset": 571
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 478,
+                        "endColumn": 97,
+                        "endOffset": 571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 576,
+                    "endColumn": 105,
+                    "endOffset": 677
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 576,
+                        "endColumn": 105,
+                        "endOffset": 677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 682,
+                    "endColumn": 78,
+                    "endOffset": 756
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 682,
+                        "endColumn": 78,
+                        "endOffset": 756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 761,
+                    "endColumn": 75,
+                    "endOffset": 832
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 761,
+                        "endColumn": 75,
+                        "endOffset": 832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 837,
+                    "endColumn": 79,
+                    "endOffset": 912
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 837,
+                        "endColumn": 79,
+                        "endOffset": 912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 917,
+                    "endColumn": 97,
+                    "endOffset": 1010
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 917,
+                        "endColumn": 97,
+                        "endOffset": 1010
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1015,
+                    "endColumn": 94,
+                    "endOffset": 1105
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1015,
+                        "endColumn": 94,
+                        "endOffset": 1105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1110,
+                    "endColumn": 94,
+                    "endOffset": 1200
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1110,
+                        "endColumn": 94,
+                        "endOffset": 1200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1205,
+                    "endColumn": 99,
+                    "endOffset": 1300
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1205,
+                        "endColumn": 99,
+                        "endOffset": 1300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1305,
+                    "endColumn": 95,
+                    "endOffset": 1396
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1305,
+                        "endColumn": 95,
+                        "endOffset": 1396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1401,
+                    "endColumn": 98,
+                    "endOffset": 1495
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1401,
+                        "endColumn": 98,
+                        "endOffset": 1495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1500,
+                    "endColumn": 151,
+                    "endOffset": 1647
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1500,
+                        "endColumn": 151,
+                        "endOffset": 1647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1652,
+                    "endColumn": 93,
+                    "endOffset": 1741
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1652,
+                        "endColumn": 93,
+                        "endOffset": 1741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1746,
+                    "endColumn": 50,
+                    "endOffset": 1792
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 702,
+                        "endColumn": 48,
+                        "endOffset": 748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1797,
+                    "endColumn": 53,
+                    "endOffset": 1846
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 752,
+                        "endColumn": 51,
+                        "endOffset": 801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1851,
+                    "endColumn": 56,
+                    "endOffset": 1903
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 805,
+                        "endColumn": 54,
+                        "endOffset": 857
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1908,
+                    "endColumn": 56,
+                    "endOffset": 1960
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 2,
+                        "startOffset": 861,
+                        "endColumn": 54,
+                        "endOffset": 913
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1965,
+                    "endColumn": 42,
+                    "endOffset": 2003
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 917,
+                        "endColumn": 40,
+                        "endOffset": 955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2008,
+                    "endColumn": 51,
+                    "endOffset": 2055
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 959,
+                        "endColumn": 49,
+                        "endOffset": 1006
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2060,
+                    "endColumn": 44,
+                    "endOffset": 2100
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 2,
+                        "startOffset": 1010,
+                        "endColumn": 42,
+                        "endOffset": 1050
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2105,
+                    "endColumn": 66,
+                    "endOffset": 2167
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 2,
+                        "startOffset": 1054,
+                        "endColumn": 64,
+                        "endOffset": 1116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2172,
+                    "endColumn": 45,
+                    "endOffset": 2213
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 2,
+                        "startOffset": 1120,
+                        "endColumn": 43,
+                        "endOffset": 1161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2218,
+                    "endColumn": 42,
+                    "endOffset": 2256
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 2,
+                        "startOffset": 1165,
+                        "endColumn": 40,
+                        "endOffset": 1203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2261,
+                    "endColumn": 48,
+                    "endOffset": 2305
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 2,
+                        "startOffset": 1207,
+                        "endColumn": 46,
+                        "endOffset": 1251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2310,
+                    "endColumn": 56,
+                    "endOffset": 2362
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 2,
+                        "startOffset": 1255,
+                        "endColumn": 54,
+                        "endOffset": 1307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2367,
+                    "endColumn": 57,
+                    "endOffset": 2420
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 2,
+                        "startOffset": 1311,
+                        "endColumn": 55,
+                        "endOffset": 1364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2425,
+                    "endColumn": 46,
+                    "endOffset": 2467
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 2,
+                        "startOffset": 1368,
+                        "endColumn": 44,
+                        "endOffset": 1410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2472,
+                    "endColumn": 40,
+                    "endOffset": 2508
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 2,
+                        "startOffset": 1414,
+                        "endColumn": 38,
+                        "endOffset": 1450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2513,
+                    "endColumn": 57,
+                    "endOffset": 2566
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 2,
+                        "startOffset": 1454,
+                        "endColumn": 55,
+                        "endOffset": 1507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2571,
+                    "endColumn": 55,
+                    "endOffset": 2622
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 2,
+                        "startOffset": 1511,
+                        "endColumn": 53,
+                        "endOffset": 1562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2627,
+                    "endColumn": 63,
+                    "endOffset": 2686
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 2,
+                        "startOffset": 1566,
+                        "endColumn": 61,
+                        "endOffset": 1625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2691,
+                    "endColumn": 51,
+                    "endOffset": 2738
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 2,
+                        "startOffset": 1629,
+                        "endColumn": 49,
+                        "endOffset": 1676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2743,
+                    "endColumn": 54,
+                    "endOffset": 2793
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 2,
+                        "startOffset": 1680,
+                        "endColumn": 52,
+                        "endOffset": 1730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2798,
+                    "endColumn": 57,
+                    "endOffset": 2851
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 2,
+                        "startOffset": 1734,
+                        "endColumn": 55,
+                        "endOffset": 1787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2856,
+                    "endColumn": 55,
+                    "endOffset": 2907
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 2,
+                        "startOffset": 1791,
+                        "endColumn": 53,
+                        "endOffset": 1842
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2912,
+                    "endColumn": 57,
+                    "endOffset": 2965
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 2,
+                        "startOffset": 1846,
+                        "endColumn": 55,
+                        "endOffset": 1899
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2970,
+                    "endColumn": 52,
+                    "endOffset": 3018
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 2,
+                        "startOffset": 1903,
+                        "endColumn": 50,
+                        "endOffset": 1951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3023,
+                    "endColumn": 49,
+                    "endOffset": 3068
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 2,
+                        "startOffset": 1955,
+                        "endColumn": 47,
+                        "endOffset": 2000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3073,
+                    "endColumn": 46,
+                    "endOffset": 3115
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 2,
+                        "startOffset": 2004,
+                        "endColumn": 44,
+                        "endOffset": 2046
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3120,
+                    "endColumn": 52,
+                    "endOffset": 3168
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 2,
+                        "startOffset": 2050,
+                        "endColumn": 50,
+                        "endOffset": 2098
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3173,
+                    "endColumn": 48,
+                    "endOffset": 3217
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 2,
+                        "startOffset": 2102,
+                        "endColumn": 46,
+                        "endOffset": 2146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3222,
+                    "endColumn": 105,
+                    "endOffset": 3323
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 245,
+                        "endColumn": 101,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3328,
+                    "endColumn": 170,
+                    "endOffset": 3494
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 347,
+                        "endColumn": 170,
+                        "endOffset": 517
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3499,
+                    "endColumn": 117,
+                    "endOffset": 3612
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 518,
+                        "endColumn": 113,
+                        "endOffset": 631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3617,
+                    "endColumn": 103,
+                    "endOffset": 3716
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 632,
+                        "endColumn": 99,
+                        "endOffset": 731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3721,
+                    "endColumn": 173,
+                    "endOffset": 3890
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 732,
+                        "endColumn": 173,
+                        "endOffset": 905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3895,
+                    "endColumn": 118,
+                    "endOffset": 4009
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 906,
+                        "endColumn": 114,
+                        "endOffset": 1020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 4014,
+                    "endColumn": 136,
+                    "endOffset": 4146
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1021,
+                        "endColumn": 132,
+                        "endOffset": 1153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 4151,
+                    "endColumn": 123,
+                    "endOffset": 4270
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1154,
+                        "endColumn": 119,
+                        "endOffset": 1273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 4275,
+                    "endColumn": 179,
+                    "endOffset": 4450
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\16.2.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 247,
+                        "endColumn": 179,
+                        "endOffset": 426
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4455,
+                    "endColumn": 203,
+                    "endOffset": 4654
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1274,
+                        "endColumn": 203,
+                        "endOffset": 1477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4659,
+                    "endColumn": 104,
+                    "endOffset": 4759
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1478,
+                        "endColumn": 100,
+                        "endOffset": 1578
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4764,
+                    "endColumn": 166,
+                    "endOffset": 4926
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1579,
+                        "endColumn": 166,
+                        "endOffset": 1745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4931,
+                    "endColumn": 119,
+                    "endOffset": 5046
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1746,
+                        "endColumn": 115,
+                        "endOffset": 1861
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 5051,
+                    "endColumn": 176,
+                    "endOffset": 5223
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 1862,
+                        "endColumn": 176,
+                        "endOffset": 2038
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 5228,
+                    "endColumn": 148,
+                    "endOffset": 5372
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2039,
+                        "endColumn": 144,
+                        "endOffset": 2183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 5377,
+                    "endColumn": 88,
+                    "endOffset": 5461
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2184,
+                        "endColumn": 84,
+                        "endOffset": 2268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 5466,
+                    "endColumn": 87,
+                    "endOffset": 5549
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2269,
+                        "endColumn": 83,
+                        "endOffset": 2352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 5554,
+                    "endColumn": 103,
+                    "endOffset": 5653
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 2353,
+                        "endColumn": 99,
+                        "endOffset": 2452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 5658,
+                    "endColumn": 51,
+                    "endOffset": 5705
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 2,
+                        "startOffset": 2150,
+                        "endColumn": 49,
+                        "endOffset": 2197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 5710,
+                    "endColumn": 49,
+                    "endOffset": 5755
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 2,
+                        "startOffset": 2201,
+                        "endColumn": 47,
+                        "endOffset": 2246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 5760,
+                    "endColumn": 52,
+                    "endOffset": 5808
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 2,
+                        "startOffset": 2250,
+                        "endColumn": 50,
+                        "endOffset": 2298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 5813,
+                    "endColumn": 47,
+                    "endOffset": 5856
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 2,
+                        "startOffset": 2302,
+                        "endColumn": 45,
+                        "endOffset": 2345
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 5861,
+                    "endColumn": 45,
+                    "endOffset": 5902
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 2,
+                        "startOffset": 2349,
+                        "endColumn": 43,
+                        "endOffset": 2390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 5907,
+                    "endColumn": 44,
+                    "endOffset": 5947
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 2,
+                        "startOffset": 2394,
+                        "endColumn": 42,
+                        "endOffset": 2434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 5952,
+                    "endColumn": 42,
+                    "endOffset": 5990
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\multiimagechooser_strings_ko.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 669,
+                        "endColumn": 42,
+                        "endOffset": 707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 5995,
+                    "endColumn": 35,
+                    "endOffset": 6026
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\multiimagechooser_strings_ko.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 712,
+                        "endColumn": 35,
+                        "endOffset": 743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 6031,
+                    "endColumn": 82,
+                    "endOffset": 6109
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\multiimagechooser_strings_ko.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 182,
+                        "endColumn": 82,
+                        "endOffset": 260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 6114,
+                    "endColumn": 65,
+                    "endOffset": 6175
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\multiimagechooser_strings_ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 116,
+                        "endColumn": 65,
+                        "endOffset": 177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 6180,
+                    "endColumn": 97,
+                    "endOffset": 6273
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-gcm\\16.1.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 190,
+                        "endColumn": 93,
+                        "endOffset": 283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 6278,
+                    "endColumn": 61,
+                    "endOffset": 6335
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 2,
+                        "startOffset": 2438,
+                        "endColumn": 59,
+                        "endOffset": 2495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 6340,
+                    "endColumn": 52,
+                    "endOffset": 6388
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 2,
+                        "startOffset": 2499,
+                        "endColumn": 50,
+                        "endOffset": 2547
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 6393,
+                    "endColumn": 58,
+                    "endOffset": 6447
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 2,
+                        "startOffset": 2551,
+                        "endColumn": 56,
+                        "endOffset": 2605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 6452,
+                    "endColumn": 43,
+                    "endOffset": 6491
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 2,
+                        "startOffset": 2609,
+                        "endColumn": 41,
+                        "endOffset": 2648
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 6496,
+                    "endColumn": 70,
+                    "endOffset": 6562
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 2,
+                        "startOffset": 2652,
+                        "endColumn": 68,
+                        "endOffset": 2718
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 6567,
+                    "endColumn": 47,
+                    "endOffset": 6610
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 2,
+                        "startOffset": 2722,
+                        "endColumn": 45,
+                        "endOffset": 2765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 6615,
+                    "endColumn": 44,
+                    "endOffset": 6655
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 2,
+                        "startOffset": 2769,
+                        "endColumn": 42,
+                        "endOffset": 2809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 6660,
+                    "endColumn": 78,
+                    "endOffset": 6734
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\multiimagechooser_strings_ko.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 485,
+                        "endColumn": 78,
+                        "endOffset": 559
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 6739,
+                    "endColumn": 104,
+                    "endOffset": 6839
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\multiimagechooser_strings_ko.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 564,
+                        "endColumn": 104,
+                        "endOffset": 664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 6844,
+                    "endColumn": 59,
+                    "endOffset": 6899
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 2,
+                        "startOffset": 2813,
+                        "endColumn": 57,
+                        "endOffset": 2868
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 6904,
+                    "endColumn": 57,
+                    "endOffset": 6957
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 2,
+                        "startOffset": 2872,
+                        "endColumn": 55,
+                        "endOffset": 2925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 6962,
+                    "endColumn": 41,
+                    "endOffset": 6999
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 2,
+                        "startOffset": 2929,
+                        "endColumn": 39,
+                        "endOffset": 2966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 7004,
+                    "endColumn": 43,
+                    "endOffset": 7043
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 2,
+                        "startOffset": 2970,
+                        "endColumn": 41,
+                        "endOffset": 3009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 7048,
+                    "endColumn": 44,
+                    "endOffset": 7088
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 2,
+                        "startOffset": 3013,
+                        "endColumn": 42,
+                        "endOffset": 3053
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 7093,
+                    "endColumn": 41,
+                    "endOffset": 7130
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 2,
+                        "startOffset": 3057,
+                        "endColumn": 39,
+                        "endOffset": 3094
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 7135,
+                    "endColumn": 75,
+                    "endOffset": 7206
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 2,
+                        "startOffset": 3098,
+                        "endColumn": 73,
+                        "endOffset": 3169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 7211,
+                    "endColumn": 100,
+                    "endOffset": 7307
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 2,
+                        "startOffset": 3173,
+                        "endColumn": 98,
+                        "endOffset": 3269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 7312,
+                    "endColumn": 49,
+                    "endOffset": 7357
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 2,
+                        "startOffset": 3273,
+                        "endColumn": 47,
+                        "endOffset": 3318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 7362,
+                    "endColumn": 50,
+                    "endOffset": 7408
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 2,
+                        "startOffset": 3322,
+                        "endColumn": 48,
+                        "endOffset": 3368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 7413,
+                    "endColumn": 57,
+                    "endOffset": 7466
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 2,
+                        "startOffset": 3372,
+                        "endColumn": 55,
+                        "endOffset": 3425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 7471,
+                    "endColumn": 65,
+                    "endOffset": 7532
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 2,
+                        "startOffset": 3429,
+                        "endColumn": 63,
+                        "endOffset": 3490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 7537,
+                    "endColumn": 47,
+                    "endOffset": 7580
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 2,
+                        "startOffset": 3494,
+                        "endColumn": 45,
+                        "endOffset": 3537
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 7585,
+                    "endColumn": 47,
+                    "endOffset": 7628
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 2,
+                        "startOffset": 3541,
+                        "endColumn": 45,
+                        "endOffset": 3584
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 7633,
+                    "endColumn": 80,
+                    "endOffset": 7709
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 2,
+                        "startOffset": 3588,
+                        "endColumn": 78,
+                        "endOffset": 3664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 7714,
+                    "endColumn": 54,
+                    "endOffset": 7764
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 2,
+                        "startOffset": 3668,
+                        "endColumn": 52,
+                        "endOffset": 3718
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 7769,
+                    "endColumn": 59,
+                    "endOffset": 7824
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 2,
+                        "startOffset": 3722,
+                        "endColumn": 57,
+                        "endOffset": 3777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 7829,
+                    "endColumn": 84,
+                    "endOffset": 7909
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 2,
+                        "startOffset": 3781,
+                        "endColumn": 82,
+                        "endOffset": 3861
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 7914,
+                    "endColumn": 133,
+                    "endOffset": 8043
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 2,
+                        "startOffset": 3865,
+                        "endColumn": 131,
+                        "endOffset": 3994
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 8048,
+                    "endColumn": 95,
+                    "endOffset": 8139
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 2,
+                        "startOffset": 3998,
+                        "endColumn": 93,
+                        "endOffset": 4089
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 8144,
+                    "endColumn": 45,
+                    "endOffset": 8185
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 2,
+                        "startOffset": 4093,
+                        "endColumn": 43,
+                        "endOffset": 4134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 8190,
+                    "endColumn": 80,
+                    "endOffset": 8266
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 2,
+                        "startOffset": 4138,
+                        "endColumn": 78,
+                        "endOffset": 4214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 8271,
+                    "endColumn": 67,
+                    "endOffset": 8334
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 2,
+                        "startOffset": 4218,
+                        "endColumn": 65,
+                        "endOffset": 4281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 8339,
+                    "endColumn": 68,
+                    "endOffset": 8403
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 2,
+                        "startOffset": 4285,
+                        "endColumn": 66,
+                        "endOffset": 4349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 8408,
+                    "endColumn": 44,
+                    "endOffset": 8448
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 2,
+                        "startOffset": 4353,
+                        "endColumn": 42,
+                        "endOffset": 4393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 8453,
+                    "endColumn": 46,
+                    "endOffset": 8495
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 2,
+                        "startOffset": 4397,
+                        "endColumn": 44,
+                        "endOffset": 4439
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 8500,
+                    "endColumn": 62,
+                    "endOffset": 8558
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 2,
+                        "startOffset": 4443,
+                        "endColumn": 60,
+                        "endOffset": 4501
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 8563,
+                    "endColumn": 70,
+                    "endOffset": 8629
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 2,
+                        "startOffset": 4505,
+                        "endColumn": 68,
+                        "endOffset": 4571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 8634,
+                    "endColumn": 58,
+                    "endOffset": 8688
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 2,
+                        "startOffset": 4575,
+                        "endColumn": 56,
+                        "endOffset": 4629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 8693,
+                    "endColumn": 90,
+                    "endOffset": 8779
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 2,
+                        "startOffset": 4633,
+                        "endColumn": 88,
+                        "endOffset": 4719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 8784,
+                    "endColumn": 68,
+                    "endOffset": 8848
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 2,
+                        "startOffset": 4723,
+                        "endColumn": 66,
+                        "endOffset": 4787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 8853,
+                    "endColumn": 52,
+                    "endOffset": 8901
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 2,
+                        "startOffset": 4791,
+                        "endColumn": 50,
+                        "endOffset": 4839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 8906,
+                    "endColumn": 46,
+                    "endOffset": 8948
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 2,
+                        "startOffset": 4843,
+                        "endColumn": 44,
+                        "endOffset": 4885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 8953,
+                    "endColumn": 68,
+                    "endOffset": 9017
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 2,
+                        "startOffset": 4889,
+                        "endColumn": 66,
+                        "endOffset": 4953
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 9022,
+                    "endColumn": 60,
+                    "endOffset": 9078
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\multiimagechooser_strings_ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 60,
+                        "endOffset": 111
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 9083,
+                    "endColumn": 70,
+                    "endOffset": 9149
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 2,
+                        "startOffset": 4957,
+                        "endColumn": 68,
+                        "endOffset": 5023
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 9154,
+                    "endColumn": 68,
+                    "endOffset": 9218
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 2,
+                        "startOffset": 5027,
+                        "endColumn": 66,
+                        "endOffset": 5091
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 9223,
+                    "endColumn": 78,
+                    "endOffset": 9297
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 2,
+                        "startOffset": 5095,
+                        "endColumn": 76,
+                        "endOffset": 5169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 9302,
+                    "endColumn": 64,
+                    "endOffset": 9362
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 2,
+                        "startOffset": 5173,
+                        "endColumn": 62,
+                        "endOffset": 5233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 9367,
+                    "endColumn": 68,
+                    "endOffset": 9431
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 2,
+                        "startOffset": 5237,
+                        "endColumn": 66,
+                        "endOffset": 5301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 9436,
+                    "endColumn": 121,
+                    "endOffset": 9553
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 2,
+                        "startOffset": 5305,
+                        "endColumn": 119,
+                        "endOffset": 5422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 9558,
+                    "endColumn": 80,
+                    "endOffset": 9634
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 2,
+                        "startOffset": 5426,
+                        "endColumn": 78,
+                        "endOffset": 5502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 9639,
+                    "endColumn": 67,
+                    "endOffset": 9702
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 2,
+                        "startOffset": 5506,
+                        "endColumn": 65,
+                        "endOffset": 5569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 9707,
+                    "endColumn": 90,
+                    "endOffset": 9793
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 2,
+                        "startOffset": 5573,
+                        "endColumn": 88,
+                        "endOffset": 5659
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 9798,
+                    "endColumn": 65,
+                    "endOffset": 9859
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 2,
+                        "startOffset": 5663,
+                        "endColumn": 63,
+                        "endOffset": 5724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 9864,
+                    "endColumn": 77,
+                    "endOffset": 9937
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 2,
+                        "startOffset": 5728,
+                        "endColumn": 75,
+                        "endOffset": 5801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 9942,
+                    "endColumn": 88,
+                    "endOffset": 10026
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 2,
+                        "startOffset": 5805,
+                        "endColumn": 86,
+                        "endOffset": 5889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 10031,
+                    "endColumn": 82,
+                    "endOffset": 10109
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 2,
+                        "startOffset": 5893,
+                        "endColumn": 80,
+                        "endOffset": 5971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 10114,
+                    "endColumn": 69,
+                    "endOffset": 10179
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 2,
+                        "startOffset": 5975,
+                        "endColumn": 67,
+                        "endOffset": 6040
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 10184,
+                    "endColumn": 128,
+                    "endOffset": 10308
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 2,
+                        "startOffset": 6044,
+                        "endColumn": 126,
+                        "endOffset": 6168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 10313,
+                    "endColumn": 66,
+                    "endOffset": 10375
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 2,
+                        "startOffset": 6172,
+                        "endColumn": 64,
+                        "endOffset": 6234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 10380,
+                    "endColumn": 59,
+                    "endOffset": 10435
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 2,
+                        "startOffset": 6238,
+                        "endColumn": 57,
+                        "endOffset": 6293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 10440,
+                    "endColumn": 47,
+                    "endOffset": 10483
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 2,
+                        "startOffset": 6297,
+                        "endColumn": 45,
+                        "endOffset": 6340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 10488,
+                    "endColumn": 59,
+                    "endOffset": 10543
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 2,
+                        "startOffset": 6344,
+                        "endColumn": 57,
+                        "endOffset": 6399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 10548,
+                    "endColumn": 86,
+                    "endOffset": 10630
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 2,
+                        "startOffset": 6403,
+                        "endColumn": 84,
+                        "endOffset": 6485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 10635,
+                    "endColumn": 76,
+                    "endOffset": 10707
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 2,
+                        "startOffset": 6489,
+                        "endColumn": 74,
+                        "endOffset": 6561
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 10712,
+                    "endColumn": 58,
+                    "endOffset": 10766
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 2,
+                        "startOffset": 6565,
+                        "endColumn": 56,
+                        "endOffset": 6619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 10771,
+                    "endColumn": 70,
+                    "endOffset": 10837
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 2,
+                        "startOffset": 6623,
+                        "endColumn": 68,
+                        "endOffset": 6689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 10842,
+                    "endColumn": 61,
+                    "endOffset": 10899
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 2,
+                        "startOffset": 6693,
+                        "endColumn": 59,
+                        "endOffset": 6750
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 10904,
+                    "endColumn": 85,
+                    "endOffset": 10985
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 2,
+                        "startOffset": 6754,
+                        "endColumn": 83,
+                        "endOffset": 6835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 10990,
+                    "endColumn": 67,
+                    "endOffset": 11053
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 2,
+                        "startOffset": 6839,
+                        "endColumn": 65,
+                        "endOffset": 6902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 11058,
+                    "endColumn": 69,
+                    "endOffset": 11123
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 2,
+                        "startOffset": 6906,
+                        "endColumn": 67,
+                        "endOffset": 6971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 11128,
+                    "endColumn": 76,
+                    "endOffset": 11200
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 2,
+                        "startOffset": 6975,
+                        "endColumn": 74,
+                        "endOffset": 7047
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 11205,
+                    "endColumn": 56,
+                    "endOffset": 11257
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 2,
+                        "startOffset": 7051,
+                        "endColumn": 54,
+                        "endOffset": 7103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 11262,
+                    "endColumn": 70,
+                    "endOffset": 11328
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\multiimagechooser_strings_ko.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 332,
+                        "endColumn": 70,
+                        "endOffset": 398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 11333,
+                    "endColumn": 81,
+                    "endOffset": 11410
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\multiimagechooser_strings_ko.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 81,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 11415,
+                    "endColumn": 66,
+                    "endOffset": 11477
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\multiimagechooser_strings_ko.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 265,
+                        "endColumn": 66,
+                        "endOffset": 327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 11482,
+                    "endColumn": 61,
+                    "endOffset": 11539
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 2,
+                        "startOffset": 7107,
+                        "endColumn": 59,
+                        "endOffset": 7164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 11544,
+                    "endColumn": 57,
+                    "endOffset": 11597
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 2,
+                        "startOffset": 7168,
+                        "endColumn": 55,
+                        "endOffset": 7221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 11602,
+                    "endColumn": 62,
+                    "endOffset": 11660
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 2,
+                        "startOffset": 7225,
+                        "endColumn": 60,
+                        "endOffset": 7283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 11665,
+                    "endColumn": 52,
+                    "endOffset": 11713
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 2,
+                        "startOffset": 7287,
+                        "endColumn": 50,
+                        "endOffset": 7335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 11718,
+                    "endColumn": 48,
+                    "endOffset": 11762
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 2,
+                        "startOffset": 7339,
+                        "endColumn": 46,
+                        "endOffset": 7383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 11767,
+                    "endColumn": 51,
+                    "endOffset": 11814
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 2,
+                        "startOffset": 7387,
+                        "endColumn": 49,
+                        "endOffset": 7434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 11819,
+                    "endColumn": 50,
+                    "endOffset": 11865
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 2,
+                        "startOffset": 7438,
+                        "endColumn": 48,
+                        "endOffset": 7484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 11870,
+                    "endColumn": 50,
+                    "endOffset": 11916
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 2,
+                        "startOffset": 7488,
+                        "endColumn": 48,
+                        "endOffset": 7534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 11921,
+                    "endColumn": 49,
+                    "endOffset": 11966
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 2,
+                        "startOffset": 7538,
+                        "endColumn": 47,
+                        "endOffset": 7583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 11971,
+                    "endColumn": 52,
+                    "endOffset": 12019
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 2,
+                        "startOffset": 7587,
+                        "endColumn": 50,
+                        "endOffset": 7635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 12024,
+                    "endColumn": 54,
+                    "endOffset": 12074
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 2,
+                        "startOffset": 7639,
+                        "endColumn": 52,
+                        "endOffset": 7689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 12079,
+                    "endColumn": 44,
+                    "endOffset": 12119
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 2,
+                        "startOffset": 7693,
+                        "endColumn": 42,
+                        "endOffset": 7733
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 12124,
+                    "endColumn": 77,
+                    "endOffset": 12197
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1746,
+                        "endColumn": 77,
+                        "endOffset": 1819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 12202,
+                    "endColumn": 46,
+                    "endOffset": 12244
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 2,
+                        "startOffset": 7737,
+                        "endColumn": 44,
+                        "endOffset": 7779
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 12249,
+                    "endColumn": 100,
+                    "endOffset": 12345
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 12350,
+                    "endColumn": 68,
+                    "endOffset": 12414
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 2,
+                        "startOffset": 7783,
+                        "endColumn": 66,
+                        "endOffset": 7847
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 12419,
+                    "endColumn": 51,
+                    "endOffset": 12466
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 2,
+                        "startOffset": 7851,
+                        "endColumn": 49,
+                        "endOffset": 7898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 12471,
+                    "endColumn": 46,
+                    "endOffset": 12513
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 2,
+                        "startOffset": 7902,
+                        "endColumn": 44,
+                        "endOffset": 7944
+                    }
+                }
+            }
+        ]
+    }
+]

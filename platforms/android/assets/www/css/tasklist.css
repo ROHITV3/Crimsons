@@ -1,0 +1,142 @@
+#main {
+	background-color: rgba(234,234,234,0.0);
+}
+
+#main .jobList {
+	padding: 10px 0px;
+	background-color: rgba(234,234,234,0.0);
+}
+
+#main .jobList ul {
+	margin: 0;
+	padding: 0;
+	width:100%;
+}
+
+#main .jobList li {
+	border: 1px solid #eeeeee;
+	list-style: none;
+	padding-top: 5px;
+	margin-bottom: 20px;
+}
+
+.job-title {
+	display: inline-block !important;
+	/*font-family: 'Century Gothic';
+	font-size: 20px !important;
+	font-weight: bold !important;*/
+	width: 100%;
+	margin-left: 5px;
+	vertical-align: top;
+	line-height: 1;
+	padding-bottom: 5px; 
+}
+
+.job-title img {
+	height: 20px;
+}
+
+.job-value {
+	display: inline-block !important;
+	font-family: 'Century Gothic';
+	font-size: 20px !important;
+	font-weight: lighter !important;
+	width: 92%;
+	padding-left: 5px;
+	float: right;
+}
+
+.job-details {
+	display: inline-block !important;
+	font-family: 'Century Gothic';
+	font-size: 20px !important;
+	font-weight: bold;
+        color: #000099;
+	width: 92%;
+	padding-left: 5px;
+	float: right;
+}
+
+.job-preview {
+	border-top: 2px solid #eeeeee;
+	padding: 4px 0;
+	margin: 0 5px 0 5px;
+}
+
+.job-preview-name {
+	display: block !important;
+	font-family: 'Century Gothic';
+	font-size: 20px !important;
+	font-weight: bold !important;
+	width: 100%;
+}
+	
+.job-preview-value, .job-preview-value-bluetooth {
+	display: block;
+	font-family: 'Century Gothic';
+	font-size: 20px !important;
+	font-weight: lighter !important;
+	margin-bottom: 8px;
+	width: 100%;
+}
+.job-preview-bluetooth-status{
+    border-radius: 7.5px; 
+    border-width: 1px; 
+    border-style: solid; 
+    width: 25px; height: 15px; 
+    background-color: rgb(255,0,0);
+}
+
+#main .jobList li {
+	background-color: rgba(255,255,255, 0.9);
+}
+
+#main .jobCount {
+	font-size: x-large;
+	display: inline-block;
+	margin: 5px 5px 0px 5px;
+}
+#main .jobCount img {
+	height: 20px;
+	padding: 0 5px;
+}
+#main .uploadCount {
+	font-size: x-large;
+	display: inline-block;
+	margin: 5px 5px 0px 5px;
+}
+#main .uploadCount img {
+	height: 20px;
+	padding: 0 5px;
+}	
+#main .lastUpdate {
+	font-size: x-small;
+}
+
+.adhocForm label{
+	font-size: x-large;
+	text-align: left;
+}
+.adhocForm input, .adhocForm select, .adhocForm textarea {
+	font-size: large;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #fff;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: x-large;
+    box-sizing: border-box;
+    color: #000;
+    outline: none;
+    padding: 4px;
+    width: 100%;
+}
+.adhocForm input::-webkit-input-placeholder {
+	color: #808080;
+}
+
+/*#main .jobList li:nth-child(odd) {
+	background-color: rgba(255,255,255,1.0);
+}
+#main .jobList li:nth-child(even) {
+	background-color: rgba(234,234,234,1.0);
+}*/

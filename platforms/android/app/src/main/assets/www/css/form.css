@@ -1,0 +1,266 @@
+
+.form-sheet {
+    background-color: inherit;
+    margin: 4px;
+    width: 96%;
+}
+
+.form-menu {
+    background-color: inherit;
+    padding: 4px;
+    width: 100%;
+}
+
+.form-menu label {
+    display: block;
+    margin: 16px 0 8px 0;
+}
+
+.form-menu input[type="range"] {
+    margin-right: 8px;
+}
+
+.form-field, .form-field fieldset{
+    display: block;
+    background-color: inherit;
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 100%;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: x-large;
+}
+.form-field .mandatory:after { 
+    color: #CC0000;
+    content: " *";
+}
+.form-field .form-buttons {
+display:none;
+}
+.form-field label:first-child {
+	font-weight: bold;
+	color: rgba(67,125,198,1.0);
+}
+.form-field fieldset label:first-child {
+	font-weight: inherit;
+	color: inherit;
+}
+
+.form-field-menu {
+
+}
+
+.form-sheet input, .form-sheet select, .form-sheet label, .form-sheet textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    display: block;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: x-large;
+    margin: 8px 0 16px 0;
+    width: 100%;
+}
+
+.form-sheet input, .form-sheet select, .form-sheet textarea {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #fff;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: x-large;
+    box-sizing: border-box;
+    color: #000;
+    outline: none;
+    padding: 4px;
+}
+
+.form-sheet input[type="file"], .form-sheet input[type="hidden"] {
+    height: 0;
+    visibility: hidden;
+    width: 0;
+}
+
+.form-sheet input[type="submit"] {
+    border: none;
+    height: auto;
+    width: auto;
+}
+
+.form-sheet input[type="submit"]:active, .form-sheet input[type="submit"]:focus {
+    border: none;
+    outline: 0;
+}
+
+.form-sheet input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    display: inline-block;
+    height: 22px;
+    margin-right: 8px;
+    padding: 4px;
+    vertical-align: middle;
+    width: 22px;
+}
+
+.form-sheet input[type="radio"] {
+    -webkit-appearance: radio;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 4px;
+    vertical-align: middle; 
+    border: 0px;
+    width: 22px;
+    height: 22px;
+}
+
+.form-sheet input[class="rating-input"] {
+    -webkit-appearance: radio;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 40px;
+    vertical-align: middle; 
+    border: 0px;
+    width: 100%;
+    height: 1em;
+}
+.form-sheet input::-webkit-input-placeholder, .form-sheet textarea::-webkit-input-placeholder {
+    color: #808080;
+}
+
+.form-sheet input:-moz-placeholder, .form-sheet textarea:-moz-placeholder {
+    color: #808080;
+}
+
+.form-sheet input::-moz-placeholder, .form-sheet textarea::-moz-placeholder {
+    color: #808080;
+}
+
+.form-sheet input:-ms-input-placeholder, .form-sheet textarea:-ms-input-placeholder {
+    color: #808080;
+}
+
+.form-sheet div.camera {
+	/*width: 96px;*/
+}
+
+.form-sheet div.camera img {
+	object-fit: contain;
+	height: 96px;
+	width: 96px;
+	margin: 0 5px;
+}
+
+.form-sheet div.camera input[type="image"] {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	height: 96px;
+	width: 96px;
+	border: none;
+	background: transparent;
+}
+
+.form-sheet div.gallery img {
+	object-fit: contain;
+	height: 96px;
+	width: 96px;
+	margin: 0 5px;
+}
+
+.form-sheet div.gallery input[type="image"] {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	height: 96px;
+	width: 96px;
+	border: none;
+	background: transparent;
+}
+
+.form-sheet div.cameralibrary input[type="image"] {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	height: 96px;
+	width: 96px;
+	border: none;
+	background: transparent;
+}
+
+.form-sheet div.cameralibrary img {
+	object-fit: contain;
+	height: 96px;
+	width: 96px;
+	margin: 0 5px;
+}
+
+.form-sheet div.barcode input[type="image"] {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	height: 96px;
+	width: 96px;
+	border: none;
+	background: transparent;
+}
+
+.form-sheet div.signature img {
+	object-fit: contain;
+	height: 96px;
+	width: 96px;
+	margin: 0 5px;
+}
+
+.form-sheet div.drawing img {
+	object-fit: contain;
+	height: 96px;
+	width: 96px;
+	margin: 0 5px;
+}
+
+.form-sheet .rating {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+    width: 100%;
+}
+
+.form-sheet .rating div {
+    display: inline-block;
+}
+
+.form-sheet .rating-input {
+    float: left;
+}
+
+.form-sheet .rating-star {
+    position: relative;
+    float: left;
+    display: inline-block;
+    margin: 8px -3px;
+    text-align: right;
+    width: 32px;
+}
+
+.form-sheet .hint-button{
+        width:20px; 
+        height:20px; 
+        border: 0;
+        background: url("../img/Hint_off.png") no-repeat top left;
+        background-size: 50%;
+        background-size: 20px auto; 	
+}
+
+.form-sheet .hint-label{
+        font-style: italic;
+        font-size: 16px;
+        background: #F1F1F1
+}
+
+.form-sheet div .form-field-label.collapser::before{
+    content: " \25B2 ";
+    color: #808080;
+}
+
+.form-sheet div .form-field-label.collapser.expand::before{
+    content: " \25BC ";
+    color: #808080;
+}
+

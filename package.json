@@ -1,0 +1,50 @@
+{
+  "name": "com.v3.wam",
+  "version": "3.6.2",
+  "displayName": "WAM 3",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-save-image-gallery": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-ble-central": {},
+      "cordova-plugin-background-mode": {},
+      "cordova.plugins.diagnostic": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-media-capture": {},
+      "cordova-plugin-compat": {},
+      "cordova-plugin-android-permissions": {},
+      "cordova-plugin-file-downloader": {},
+      "cordova-plugin-file-transfer": {},
+      "com.testfairy.cordova-plugin": {}
+    }
+  },
+  "dependencies": {
+    "com.testfairy.cordova-plugin": "^2.22.1",
+    "cordova": "^7.1.0",
+    "cordova-android": "^6.3.0",
+    "cordova-android-support-gradle-release": "^1.4.4",
+    "cordova-plugin-android-permissions": "^1.0.0",
+    "cordova-plugin-background-mode": "^0.7.2",
+    "cordova-plugin-ble-central": "^1.2.2",
+    "cordova-plugin-camera": "~2.4.1-dev",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-file": "^4.3.3",
+    "cordova-plugin-file-downloader": "^0.4.0",
+    "cordova-plugin-file-md5": "^0.3.3",
+    "cordova-plugin-inappbrowser": "^3.0.0",
+    "cordova-plugin-media-capture": "^1.4.3",
+    "cordova-plugin-whitelist": "1",
+    "cordova-plugin-zip": "^3.1.0",
+    "cordova-save-image-gallery": "0.0.14",
+    "cordova.plugins.diagnostic": "^4.0.5"
+  },
+  "devDependencies": {
+    "cordova-plugin-advanced-http": "^3.3.1",
+    "cordova-plugin-file-opener2": "^3.0.5"
+  }
+}

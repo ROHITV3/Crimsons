@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\xml\\preferences.xml"
+    }
+]

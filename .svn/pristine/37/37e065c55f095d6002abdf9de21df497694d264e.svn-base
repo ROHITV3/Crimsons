@@ -1,0 +1,3199 @@
+[
+    {
+        "outputFile": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 96,
+                    "endOffset": 197
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 96,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 202,
+                    "endColumn": 92,
+                    "endOffset": 290
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 202,
+                        "endColumn": 92,
+                        "endOffset": 290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 295,
+                    "endColumn": 104,
+                    "endOffset": 395
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 104,
+                        "endOffset": 395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 400,
+                    "endColumn": 81,
+                    "endOffset": 477
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 400,
+                        "endColumn": 81,
+                        "endOffset": 477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 482,
+                    "endColumn": 97,
+                    "endOffset": 575
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 482,
+                        "endColumn": 97,
+                        "endOffset": 575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 580,
+                    "endColumn": 107,
+                    "endOffset": 683
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 580,
+                        "endColumn": 107,
+                        "endOffset": 683
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 688,
+                    "endColumn": 76,
+                    "endOffset": 760
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 688,
+                        "endColumn": 76,
+                        "endOffset": 760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 765,
+                    "endColumn": 75,
+                    "endOffset": 836
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 765,
+                        "endColumn": 75,
+                        "endOffset": 836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 841,
+                    "endColumn": 77,
+                    "endOffset": 914
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 841,
+                        "endColumn": 77,
+                        "endOffset": 914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 919,
+                    "endColumn": 101,
+                    "endOffset": 1016
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 919,
+                        "endColumn": 101,
+                        "endOffset": 1016
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1021,
+                    "endColumn": 98,
+                    "endOffset": 1115
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1021,
+                        "endColumn": 98,
+                        "endOffset": 1115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1120,
+                    "endColumn": 94,
+                    "endOffset": 1210
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1120,
+                        "endColumn": 94,
+                        "endOffset": 1210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1215,
+                    "endColumn": 102,
+                    "endOffset": 1313
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1215,
+                        "endColumn": 102,
+                        "endOffset": 1313
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1318,
+                    "endColumn": 94,
+                    "endOffset": 1408
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1318,
+                        "endColumn": 94,
+                        "endOffset": 1408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1413,
+                    "endColumn": 95,
+                    "endOffset": 1504
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1413,
+                        "endColumn": 95,
+                        "endOffset": 1504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1509,
+                    "endColumn": 147,
+                    "endOffset": 1652
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1509,
+                        "endColumn": 147,
+                        "endOffset": 1652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1657,
+                    "endColumn": 96,
+                    "endOffset": 1749
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1657,
+                        "endColumn": 96,
+                        "endOffset": 1749
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1754,
+                    "endColumn": 52,
+                    "endOffset": 1802
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 2,
+                        "startOffset": 705,
+                        "endColumn": 50,
+                        "endOffset": 753
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1807,
+                    "endColumn": 55,
+                    "endOffset": 1858
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 757,
+                        "endColumn": 53,
+                        "endOffset": 808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1863,
+                    "endColumn": 56,
+                    "endOffset": 1915
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 812,
+                        "endColumn": 54,
+                        "endOffset": 864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1920,
+                    "endColumn": 53,
+                    "endOffset": 1969
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 2,
+                        "startOffset": 868,
+                        "endColumn": 51,
+                        "endOffset": 917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1974,
+                    "endColumn": 42,
+                    "endOffset": 2012
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 921,
+                        "endColumn": 40,
+                        "endOffset": 959
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2017,
+                    "endColumn": 52,
+                    "endOffset": 2065
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 963,
+                        "endColumn": 50,
+                        "endOffset": 1011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2070,
+                    "endColumn": 47,
+                    "endOffset": 2113
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 2,
+                        "startOffset": 1015,
+                        "endColumn": 45,
+                        "endOffset": 1058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2118,
+                    "endColumn": 65,
+                    "endOffset": 2179
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 2,
+                        "startOffset": 1062,
+                        "endColumn": 63,
+                        "endOffset": 1123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2184,
+                    "endColumn": 42,
+                    "endOffset": 2222
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 2,
+                        "startOffset": 1127,
+                        "endColumn": 40,
+                        "endOffset": 1165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2227,
+                    "endColumn": 42,
+                    "endOffset": 2265
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 2,
+                        "startOffset": 1169,
+                        "endColumn": 40,
+                        "endOffset": 1207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2270,
+                    "endColumn": 46,
+                    "endOffset": 2312
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 2,
+                        "startOffset": 1211,
+                        "endColumn": 44,
+                        "endOffset": 1253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2317,
+                    "endColumn": 53,
+                    "endOffset": 2366
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 2,
+                        "startOffset": 1257,
+                        "endColumn": 51,
+                        "endOffset": 1306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2371,
+                    "endColumn": 62,
+                    "endOffset": 2429
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 2,
+                        "startOffset": 1310,
+                        "endColumn": 60,
+                        "endOffset": 1368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2434,
+                    "endColumn": 45,
+                    "endOffset": 2475
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 2,
+                        "startOffset": 1372,
+                        "endColumn": 43,
+                        "endOffset": 1413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2480,
+                    "endColumn": 40,
+                    "endOffset": 2516
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 2,
+                        "startOffset": 1417,
+                        "endColumn": 38,
+                        "endOffset": 1453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2521,
+                    "endColumn": 54,
+                    "endOffset": 2571
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 2,
+                        "startOffset": 1457,
+                        "endColumn": 52,
+                        "endOffset": 1507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2576,
+                    "endColumn": 54,
+                    "endOffset": 2626
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 2,
+                        "startOffset": 1511,
+                        "endColumn": 52,
+                        "endOffset": 1561
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2631,
+                    "endColumn": 66,
+                    "endOffset": 2693
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 2,
+                        "startOffset": 1565,
+                        "endColumn": 64,
+                        "endOffset": 1627
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2698,
+                    "endColumn": 51,
+                    "endOffset": 2745
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 2,
+                        "startOffset": 1631,
+                        "endColumn": 49,
+                        "endOffset": 1678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2750,
+                    "endColumn": 56,
+                    "endOffset": 2802
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 2,
+                        "startOffset": 1682,
+                        "endColumn": 54,
+                        "endOffset": 1734
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2807,
+                    "endColumn": 56,
+                    "endOffset": 2859
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 2,
+                        "startOffset": 1738,
+                        "endColumn": 54,
+                        "endOffset": 1790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2864,
+                    "endColumn": 54,
+                    "endOffset": 2914
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 2,
+                        "startOffset": 1794,
+                        "endColumn": 52,
+                        "endOffset": 1844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2919,
+                    "endColumn": 61,
+                    "endOffset": 2976
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 2,
+                        "startOffset": 1848,
+                        "endColumn": 59,
+                        "endOffset": 1905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2981,
+                    "endColumn": 55,
+                    "endOffset": 3032
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 2,
+                        "startOffset": 1909,
+                        "endColumn": 53,
+                        "endOffset": 1960
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3037,
+                    "endColumn": 51,
+                    "endOffset": 3084
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 2,
+                        "startOffset": 1964,
+                        "endColumn": 49,
+                        "endOffset": 2011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3089,
+                    "endColumn": 44,
+                    "endOffset": 3129
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 2,
+                        "startOffset": 2015,
+                        "endColumn": 42,
+                        "endOffset": 2055
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3134,
+                    "endColumn": 55,
+                    "endOffset": 3185
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 2,
+                        "startOffset": 2059,
+                        "endColumn": 53,
+                        "endOffset": 2110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3190,
+                    "endColumn": 49,
+                    "endOffset": 3235
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 2,
+                        "startOffset": 2114,
+                        "endColumn": 47,
+                        "endOffset": 2159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3240,
+                    "endColumn": 105,
+                    "endOffset": 3341
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 245,
+                        "endColumn": 101,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3346,
+                    "endColumn": 165,
+                    "endOffset": 3507
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 347,
+                        "endColumn": 165,
+                        "endOffset": 512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3512,
+                    "endColumn": 121,
+                    "endOffset": 3629
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 513,
+                        "endColumn": 117,
+                        "endOffset": 630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3634,
+                    "endColumn": 107,
+                    "endOffset": 3737
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 631,
+                        "endColumn": 103,
+                        "endOffset": 734
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3742,
+                    "endColumn": 188,
+                    "endOffset": 3926
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 735,
+                        "endColumn": 188,
+                        "endOffset": 923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3931,
+                    "endColumn": 121,
+                    "endOffset": 4048
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 924,
+                        "endColumn": 117,
+                        "endOffset": 1041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 4053,
+                    "endColumn": 134,
+                    "endOffset": 4183
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1042,
+                        "endColumn": 130,
+                        "endOffset": 1172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 4188,
+                    "endColumn": 127,
+                    "endOffset": 4311
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1173,
+                        "endColumn": 123,
+                        "endOffset": 1296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 4316,
+                    "endColumn": 180,
+                    "endOffset": 4492
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\16.2.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 247,
+                        "endColumn": 180,
+                        "endOffset": 427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4497,
+                    "endColumn": 190,
+                    "endOffset": 4683
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1297,
+                        "endColumn": 190,
+                        "endOffset": 1487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4688,
+                    "endColumn": 102,
+                    "endOffset": 4786
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1488,
+                        "endColumn": 98,
+                        "endOffset": 1586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4791,
+                    "endColumn": 163,
+                    "endOffset": 4950
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1587,
+                        "endColumn": 163,
+                        "endOffset": 1750
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4955,
+                    "endColumn": 120,
+                    "endOffset": 5071
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1751,
+                        "endColumn": 116,
+                        "endOffset": 1867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 5076,
+                    "endColumn": 178,
+                    "endOffset": 5250
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 1868,
+                        "endColumn": 178,
+                        "endOffset": 2046
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 5255,
+                    "endColumn": 149,
+                    "endOffset": 5400
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2047,
+                        "endColumn": 145,
+                        "endOffset": 2192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 5405,
+                    "endColumn": 89,
+                    "endOffset": 5490
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2193,
+                        "endColumn": 85,
+                        "endOffset": 2278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 5495,
+                    "endColumn": 88,
+                    "endOffset": 5579
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2279,
+                        "endColumn": 84,
+                        "endOffset": 2363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 5584,
+                    "endColumn": 99,
+                    "endOffset": 5679
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 2364,
+                        "endColumn": 95,
+                        "endOffset": 2459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 5684,
+                    "endColumn": 48,
+                    "endOffset": 5728
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 2,
+                        "startOffset": 2163,
+                        "endColumn": 46,
+                        "endOffset": 2207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 5733,
+                    "endColumn": 50,
+                    "endOffset": 5779
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 2,
+                        "startOffset": 2211,
+                        "endColumn": 48,
+                        "endOffset": 2257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 5784,
+                    "endColumn": 50,
+                    "endOffset": 5830
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 2,
+                        "startOffset": 2261,
+                        "endColumn": 48,
+                        "endOffset": 2307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 5835,
+                    "endColumn": 47,
+                    "endOffset": 5878
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 2,
+                        "startOffset": 2311,
+                        "endColumn": 45,
+                        "endOffset": 2354
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 5883,
+                    "endColumn": 48,
+                    "endOffset": 5927
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 2,
+                        "startOffset": 2358,
+                        "endColumn": 46,
+                        "endOffset": 2402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 5932,
+                    "endColumn": 49,
+                    "endOffset": 5977
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 2,
+                        "startOffset": 2406,
+                        "endColumn": 47,
+                        "endOffset": 2451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 5982,
+                    "endColumn": 42,
+                    "endOffset": 6020
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\multiimagechooser_strings_ja.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 669,
+                        "endColumn": 42,
+                        "endOffset": 707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 6025,
+                    "endColumn": 35,
+                    "endOffset": 6056
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\multiimagechooser_strings_ja.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 712,
+                        "endColumn": 35,
+                        "endOffset": 743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 6061,
+                    "endColumn": 78,
+                    "endOffset": 6135
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\multiimagechooser_strings_ja.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 179,
+                        "endColumn": 78,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 6140,
+                    "endColumn": 62,
+                    "endOffset": 6198
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\multiimagechooser_strings_ja.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 116,
+                        "endColumn": 62,
+                        "endOffset": 174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 6203,
+                    "endColumn": 98,
+                    "endOffset": 6297
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-gcm\\16.1.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 190,
+                        "endColumn": 94,
+                        "endOffset": 284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 6302,
+                    "endColumn": 61,
+                    "endOffset": 6359
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 2,
+                        "startOffset": 2455,
+                        "endColumn": 59,
+                        "endOffset": 2512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 6364,
+                    "endColumn": 52,
+                    "endOffset": 6412
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 2,
+                        "startOffset": 2516,
+                        "endColumn": 50,
+                        "endOffset": 2564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 6417,
+                    "endColumn": 61,
+                    "endOffset": 6474
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 2,
+                        "startOffset": 2568,
+                        "endColumn": 59,
+                        "endOffset": 2625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 6479,
+                    "endColumn": 43,
+                    "endOffset": 6518
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 2,
+                        "startOffset": 2629,
+                        "endColumn": 41,
+                        "endOffset": 2668
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 6523,
+                    "endColumn": 68,
+                    "endOffset": 6587
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 2,
+                        "startOffset": 2672,
+                        "endColumn": 66,
+                        "endOffset": 2736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 6592,
+                    "endColumn": 46,
+                    "endOffset": 6634
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 2,
+                        "startOffset": 2740,
+                        "endColumn": 44,
+                        "endOffset": 2782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 6639,
+                    "endColumn": 44,
+                    "endOffset": 6679
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 2,
+                        "startOffset": 2786,
+                        "endColumn": 42,
+                        "endOffset": 2826
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 6684,
+                    "endColumn": 78,
+                    "endOffset": 6758
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\multiimagechooser_strings_ja.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 485,
+                        "endColumn": 78,
+                        "endOffset": 559
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 6763,
+                    "endColumn": 104,
+                    "endOffset": 6863
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\multiimagechooser_strings_ja.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 564,
+                        "endColumn": 104,
+                        "endOffset": 664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 6868,
+                    "endColumn": 56,
+                    "endOffset": 6920
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 2,
+                        "startOffset": 2830,
+                        "endColumn": 54,
+                        "endOffset": 2882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 6925,
+                    "endColumn": 54,
+                    "endOffset": 6975
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 2,
+                        "startOffset": 2886,
+                        "endColumn": 52,
+                        "endOffset": 2936
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 6980,
+                    "endColumn": 41,
+                    "endOffset": 7017
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 2,
+                        "startOffset": 2940,
+                        "endColumn": 39,
+                        "endOffset": 2977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 7022,
+                    "endColumn": 43,
+                    "endOffset": 7061
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 2,
+                        "startOffset": 2981,
+                        "endColumn": 41,
+                        "endOffset": 3020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 7066,
+                    "endColumn": 44,
+                    "endOffset": 7106
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 2,
+                        "startOffset": 3024,
+                        "endColumn": 42,
+                        "endOffset": 3064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 7111,
+                    "endColumn": 41,
+                    "endOffset": 7148
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 2,
+                        "startOffset": 3068,
+                        "endColumn": 39,
+                        "endOffset": 3105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 7153,
+                    "endColumn": 68,
+                    "endOffset": 7217
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 2,
+                        "startOffset": 3109,
+                        "endColumn": 66,
+                        "endOffset": 3173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 7222,
+                    "endColumn": 93,
+                    "endOffset": 7311
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 2,
+                        "startOffset": 3177,
+                        "endColumn": 91,
+                        "endOffset": 3266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 7316,
+                    "endColumn": 53,
+                    "endOffset": 7365
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 2,
+                        "startOffset": 3270,
+                        "endColumn": 51,
+                        "endOffset": 3319
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 7370,
+                    "endColumn": 50,
+                    "endOffset": 7416
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 2,
+                        "startOffset": 3323,
+                        "endColumn": 48,
+                        "endOffset": 3369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 7421,
+                    "endColumn": 58,
+                    "endOffset": 7475
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 2,
+                        "startOffset": 3373,
+                        "endColumn": 56,
+                        "endOffset": 3427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 7480,
+                    "endColumn": 75,
+                    "endOffset": 7551
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 2,
+                        "startOffset": 3431,
+                        "endColumn": 73,
+                        "endOffset": 3502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 7556,
+                    "endColumn": 47,
+                    "endOffset": 7599
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 2,
+                        "startOffset": 3506,
+                        "endColumn": 45,
+                        "endOffset": 3549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 7604,
+                    "endColumn": 48,
+                    "endOffset": 7648
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 2,
+                        "startOffset": 3553,
+                        "endColumn": 46,
+                        "endOffset": 3597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 7653,
+                    "endColumn": 79,
+                    "endOffset": 7728
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 2,
+                        "startOffset": 3601,
+                        "endColumn": 77,
+                        "endOffset": 3676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 7733,
+                    "endColumn": 53,
+                    "endOffset": 7782
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 2,
+                        "startOffset": 3680,
+                        "endColumn": 51,
+                        "endOffset": 3729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 7787,
+                    "endColumn": 59,
+                    "endOffset": 7842
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 2,
+                        "startOffset": 3733,
+                        "endColumn": 57,
+                        "endOffset": 3788
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 7847,
+                    "endColumn": 81,
+                    "endOffset": 7924
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 2,
+                        "startOffset": 3792,
+                        "endColumn": 79,
+                        "endOffset": 3869
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 7929,
+                    "endColumn": 107,
+                    "endOffset": 8032
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 2,
+                        "startOffset": 3873,
+                        "endColumn": 105,
+                        "endOffset": 3976
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 8037,
+                    "endColumn": 94,
+                    "endOffset": 8127
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 2,
+                        "startOffset": 3980,
+                        "endColumn": 92,
+                        "endOffset": 4070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 8132,
+                    "endColumn": 47,
+                    "endOffset": 8175
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 2,
+                        "startOffset": 4074,
+                        "endColumn": 45,
+                        "endOffset": 4117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 8180,
+                    "endColumn": 69,
+                    "endOffset": 8245
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 2,
+                        "startOffset": 4121,
+                        "endColumn": 67,
+                        "endOffset": 4186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 8250,
+                    "endColumn": 57,
+                    "endOffset": 8303
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 2,
+                        "startOffset": 4190,
+                        "endColumn": 55,
+                        "endOffset": 4243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 8308,
+                    "endColumn": 63,
+                    "endOffset": 8367
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 2,
+                        "startOffset": 4247,
+                        "endColumn": 61,
+                        "endOffset": 4306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 8372,
+                    "endColumn": 44,
+                    "endOffset": 8412
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 2,
+                        "startOffset": 4310,
+                        "endColumn": 42,
+                        "endOffset": 4350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 8417,
+                    "endColumn": 46,
+                    "endOffset": 8459
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 2,
+                        "startOffset": 4354,
+                        "endColumn": 44,
+                        "endOffset": 4396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 8464,
+                    "endColumn": 57,
+                    "endOffset": 8517
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 2,
+                        "startOffset": 4400,
+                        "endColumn": 55,
+                        "endOffset": 4453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 8522,
+                    "endColumn": 65,
+                    "endOffset": 8583
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 2,
+                        "startOffset": 4457,
+                        "endColumn": 63,
+                        "endOffset": 4518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 8588,
+                    "endColumn": 55,
+                    "endOffset": 8639
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 2,
+                        "startOffset": 4522,
+                        "endColumn": 53,
+                        "endOffset": 4573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 8644,
+                    "endColumn": 93,
+                    "endOffset": 8733
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 2,
+                        "startOffset": 4577,
+                        "endColumn": 91,
+                        "endOffset": 4666
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 8738,
+                    "endColumn": 72,
+                    "endOffset": 8806
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 2,
+                        "startOffset": 4670,
+                        "endColumn": 70,
+                        "endOffset": 4738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 8811,
+                    "endColumn": 59,
+                    "endOffset": 8866
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 2,
+                        "startOffset": 4742,
+                        "endColumn": 57,
+                        "endOffset": 4797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 8871,
+                    "endColumn": 45,
+                    "endOffset": 8912
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 2,
+                        "startOffset": 4801,
+                        "endColumn": 43,
+                        "endOffset": 4842
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 8917,
+                    "endColumn": 60,
+                    "endOffset": 8973
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 2,
+                        "startOffset": 4846,
+                        "endColumn": 58,
+                        "endOffset": 4902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 8978,
+                    "endColumn": 60,
+                    "endOffset": 9034
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\multiimagechooser_strings_ja.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 60,
+                        "endOffset": 111
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 9039,
+                    "endColumn": 62,
+                    "endOffset": 9097
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 2,
+                        "startOffset": 4906,
+                        "endColumn": 60,
+                        "endOffset": 4964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 9102,
+                    "endColumn": 68,
+                    "endOffset": 9166
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 2,
+                        "startOffset": 4968,
+                        "endColumn": 66,
+                        "endOffset": 5032
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 9171,
+                    "endColumn": 77,
+                    "endOffset": 9244
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 2,
+                        "startOffset": 5036,
+                        "endColumn": 75,
+                        "endOffset": 5109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 9249,
+                    "endColumn": 66,
+                    "endOffset": 9311
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 2,
+                        "startOffset": 5113,
+                        "endColumn": 64,
+                        "endOffset": 5175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 9316,
+                    "endColumn": 79,
+                    "endOffset": 9391
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 2,
+                        "startOffset": 5179,
+                        "endColumn": 77,
+                        "endOffset": 5254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 9396,
+                    "endColumn": 116,
+                    "endOffset": 9508
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 2,
+                        "startOffset": 5258,
+                        "endColumn": 114,
+                        "endOffset": 5370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 9513,
+                    "endColumn": 81,
+                    "endOffset": 9590
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 2,
+                        "startOffset": 5374,
+                        "endColumn": 79,
+                        "endOffset": 5451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 9595,
+                    "endColumn": 68,
+                    "endOffset": 9659
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 2,
+                        "startOffset": 5455,
+                        "endColumn": 66,
+                        "endOffset": 5519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 9664,
+                    "endColumn": 84,
+                    "endOffset": 9744
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 2,
+                        "startOffset": 5523,
+                        "endColumn": 82,
+                        "endOffset": 5603
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 9749,
+                    "endColumn": 66,
+                    "endOffset": 9811
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 2,
+                        "startOffset": 5607,
+                        "endColumn": 64,
+                        "endOffset": 5669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 9816,
+                    "endColumn": 79,
+                    "endOffset": 9891
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 2,
+                        "startOffset": 5673,
+                        "endColumn": 77,
+                        "endOffset": 5748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 9896,
+                    "endColumn": 90,
+                    "endOffset": 9982
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 2,
+                        "startOffset": 5752,
+                        "endColumn": 88,
+                        "endOffset": 5838
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 9987,
+                    "endColumn": 81,
+                    "endOffset": 10064
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 2,
+                        "startOffset": 5842,
+                        "endColumn": 79,
+                        "endOffset": 5919
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 10069,
+                    "endColumn": 68,
+                    "endOffset": 10133
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 2,
+                        "startOffset": 5923,
+                        "endColumn": 66,
+                        "endOffset": 5987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 10138,
+                    "endColumn": 92,
+                    "endOffset": 10226
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 2,
+                        "startOffset": 5991,
+                        "endColumn": 90,
+                        "endOffset": 6079
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 10231,
+                    "endColumn": 65,
+                    "endOffset": 10292
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 2,
+                        "startOffset": 6083,
+                        "endColumn": 63,
+                        "endOffset": 6144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 10297,
+                    "endColumn": 58,
+                    "endOffset": 10351
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 2,
+                        "startOffset": 6148,
+                        "endColumn": 56,
+                        "endOffset": 6202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 10356,
+                    "endColumn": 47,
+                    "endOffset": 10399
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 2,
+                        "startOffset": 6206,
+                        "endColumn": 45,
+                        "endOffset": 6249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 10404,
+                    "endColumn": 59,
+                    "endOffset": 10459
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 2,
+                        "startOffset": 6253,
+                        "endColumn": 57,
+                        "endOffset": 6308
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 10464,
+                    "endColumn": 84,
+                    "endOffset": 10544
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 2,
+                        "startOffset": 6312,
+                        "endColumn": 82,
+                        "endOffset": 6392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 10549,
+                    "endColumn": 75,
+                    "endOffset": 10620
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 2,
+                        "startOffset": 6396,
+                        "endColumn": 73,
+                        "endOffset": 6467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 10625,
+                    "endColumn": 60,
+                    "endOffset": 10681
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 2,
+                        "startOffset": 6471,
+                        "endColumn": 58,
+                        "endOffset": 6527
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 10686,
+                    "endColumn": 65,
+                    "endOffset": 10747
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 2,
+                        "startOffset": 6531,
+                        "endColumn": 63,
+                        "endOffset": 6592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 10752,
+                    "endColumn": 61,
+                    "endOffset": 10809
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 2,
+                        "startOffset": 6596,
+                        "endColumn": 59,
+                        "endOffset": 6653
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 10814,
+                    "endColumn": 79,
+                    "endOffset": 10889
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 2,
+                        "startOffset": 6657,
+                        "endColumn": 77,
+                        "endOffset": 6732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 10894,
+                    "endColumn": 66,
+                    "endOffset": 10956
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 2,
+                        "startOffset": 6736,
+                        "endColumn": 64,
+                        "endOffset": 6798
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 10961,
+                    "endColumn": 60,
+                    "endOffset": 11017
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 2,
+                        "startOffset": 6802,
+                        "endColumn": 58,
+                        "endOffset": 6858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 11022,
+                    "endColumn": 76,
+                    "endOffset": 11094
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 2,
+                        "startOffset": 6862,
+                        "endColumn": 74,
+                        "endOffset": 6934
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 11099,
+                    "endColumn": 57,
+                    "endOffset": 11152
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 2,
+                        "startOffset": 6938,
+                        "endColumn": 55,
+                        "endOffset": 6991
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 11157,
+                    "endColumn": 70,
+                    "endOffset": 11223
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\multiimagechooser_strings_ja.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 332,
+                        "endColumn": 70,
+                        "endOffset": 398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 11228,
+                    "endColumn": 81,
+                    "endOffset": 11305
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\multiimagechooser_strings_ja.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 81,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 11310,
+                    "endColumn": 73,
+                    "endOffset": 11379
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\multiimagechooser_strings_ja.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 258,
+                        "endColumn": 73,
+                        "endOffset": 327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 11384,
+                    "endColumn": 59,
+                    "endOffset": 11439
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 2,
+                        "startOffset": 6995,
+                        "endColumn": 57,
+                        "endOffset": 7050
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 11444,
+                    "endColumn": 60,
+                    "endOffset": 11500
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 2,
+                        "startOffset": 7054,
+                        "endColumn": 58,
+                        "endOffset": 7110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 11505,
+                    "endColumn": 64,
+                    "endOffset": 11565
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 2,
+                        "startOffset": 7114,
+                        "endColumn": 62,
+                        "endOffset": 7174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 11570,
+                    "endColumn": 51,
+                    "endOffset": 11617
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 2,
+                        "startOffset": 7178,
+                        "endColumn": 49,
+                        "endOffset": 7225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 11622,
+                    "endColumn": 50,
+                    "endOffset": 11668
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 2,
+                        "startOffset": 7229,
+                        "endColumn": 48,
+                        "endOffset": 7275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 11673,
+                    "endColumn": 53,
+                    "endOffset": 11722
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 2,
+                        "startOffset": 7279,
+                        "endColumn": 51,
+                        "endOffset": 7328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 11727,
+                    "endColumn": 54,
+                    "endOffset": 11777
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 2,
+                        "startOffset": 7332,
+                        "endColumn": 52,
+                        "endOffset": 7382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 11782,
+                    "endColumn": 51,
+                    "endOffset": 11829
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 2,
+                        "startOffset": 7386,
+                        "endColumn": 49,
+                        "endOffset": 7433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 11834,
+                    "endColumn": 55,
+                    "endOffset": 11885
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 2,
+                        "startOffset": 7437,
+                        "endColumn": 53,
+                        "endOffset": 7488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 11890,
+                    "endColumn": 51,
+                    "endOffset": 11937
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 2,
+                        "startOffset": 7492,
+                        "endColumn": 49,
+                        "endOffset": 7539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 11942,
+                    "endColumn": 56,
+                    "endOffset": 11994
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 2,
+                        "startOffset": 7543,
+                        "endColumn": 54,
+                        "endOffset": 7595
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 11999,
+                    "endColumn": 48,
+                    "endOffset": 12043
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 2,
+                        "startOffset": 7599,
+                        "endColumn": 46,
+                        "endOffset": 7643
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 12048,
+                    "endColumn": 77,
+                    "endOffset": 12121
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1754,
+                        "endColumn": 77,
+                        "endOffset": 1827
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 12126,
+                    "endColumn": 49,
+                    "endOffset": 12171
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 2,
+                        "startOffset": 7647,
+                        "endColumn": 47,
+                        "endOffset": 7692
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 12176,
+                    "endColumn": 100,
+                    "endOffset": 12272
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\values-ja\\values-ja.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 12277,
+                    "endColumn": 70,
+                    "endOffset": 12343
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 2,
+                        "startOffset": 7696,
+                        "endColumn": 68,
+                        "endOffset": 7762
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 12348,
+                    "endColumn": 51,
+                    "endOffset": 12395
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 2,
+                        "startOffset": 7766,
+                        "endColumn": 49,
+                        "endOffset": 7813
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 12400,
+                    "endColumn": 47,
+                    "endOffset": 12443
+                },
+                "from": {
+                    "file": "C:\\Users\\Christopher\\Documents\\NetBeansProjects\\JIACPS\\platforms\\android\\res\\values-ja\\strings.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 2,
+                        "startOffset": 7817,
+                        "endColumn": 45,
+                        "endOffset": 7860
+                    }
+                }
+            }
+        ]
+    }
+]

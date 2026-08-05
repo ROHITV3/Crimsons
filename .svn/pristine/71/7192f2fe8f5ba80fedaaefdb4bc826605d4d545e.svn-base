@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-stats\16.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a08c6dadfd96a281d9fddf59a767749e43064c23">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-stats-16.0.1_ee1461c4ff424e939dc05d1ce0f27bd895f8b0ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3304d33470ff64cf83bce9189ff3648a42eb2aa7">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-27.1.1_43070caf947a6867ad49afefee13148bf7bab2fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="23dcb4803d3103bde3f3f5db978a726338fe49ae">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-compat-27.1.1_b7ca7782d97031b70cbc1f176d5c0fc9c159ff7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-27.1.1_063fab52ae6c2d4dead7feeb28b5c6c57cb5ae9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\android.arch.lifecycle-viewmodel-1.1.0_1ca7ce337c613bde27943244b5e57b5fd4da7698.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\android.arch.lifecycle-runtime-1.1.0_7402f34d0cf9c91d67762a79f18b818e5f1bc2ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c9a721adcd7dbae7a197b0ef81102336539f63ff">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-27.1.1_26b5f12d3fef383c2683cf32a096fc3316e27e0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\16.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="c12f232c712d9cf06a1346ea56046ebf1124e887">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-16.0.1_9f6fa77ad4ddd3c795e254e74e1f88787804d2be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\16.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="81c838a26a4bfbc0e4c59e75468fd9c7b10483a6">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-16.1.0_cb0d6e7b1195172cfb7ac45bd4a471ff5d80079f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\testfairy\testfairy-android-sdk\1.9.22\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="0dab24ed856f804e9bef34fc64fb9e7842d42acd">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\testfairy-testfairy-android-sdk-1.9.22_186a2e7041f9b99bcfd7383ed1de398e92e59d25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\16.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="9f2cbfd812a7cb084d3f997c5eb9727d05265c8e">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-16.1.0_38a7a89893fddfd0af464ac7fe4cc440bd072e6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\common-1.1.0_154b0f5fa45592a501576b08b622212fa8047d60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="88c68e5ef7c5ace393d014c9ec5fe736b1ca55cf">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-27.1.1_45698b20193387edadef4ec38ceeebd4467e2566.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\libs\com.google.zxing.client.android.captureactivity.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="92d1409f739c4ebcfbab79b2a11ec63d1bf668f5">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.zxing.client.android.captureactivity_0a70be71c049227e867005a14c0aed6c519f5c1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\common-1.1.0_aef9868b892c985d82bdf2f1dd1ed565ee910253.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\16.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="5b9f57b1fb76487516b73b908f54c60c48202d84">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-16.0.1_f27d0c8458d03aa0d38318e214e71567b57d2ea1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\android.arch.core\runtime\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\android.arch.core-runtime-1.1.0_62eb7f5bd830ebf2410cb4896ea2edc3d90456e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="874f1143c11f5d38533efe512bf913e3e847e7df">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-27.1.1_9998fc93a751604af35980a3259e94a6042947b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ec657bb192b20229696216bf233779b16bf75a54">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-27.1.1_befcfa94f866956f8642c0a444a00a5b715ada31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.3.0\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="df1a7a6af20c4eca090c1f535b77951ef6025bfb">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-6.3.0-debug_7b0b97a62c6697fb01df4484d02c2f8243a32920.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.1\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-27.1.1_762da8a004ce7c6c38401c2b9243f508abeba0b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\16.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3625592fcddbb61001e595b85614ad66abbabeb7">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-16.2.0_359ca47b8b373cc44c0ff6729b0f40b354255fbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\android.arch.lifecycle-viewmodel-1.1.0_1ca7ce337c613bde27943244b5e57b5fd4da7698.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-27.1.1_063fab52ae6c2d4dead7feeb28b5c6c57cb5ae9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-stats\16.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a08c6dadfd96a281d9fddf59a767749e43064c23">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-stats-16.0.1_ee1461c4ff424e939dc05d1ce0f27bd895f8b0ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="2feadd535770271ca57b7b431f42151aa4af324a">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-27.1.1_36cbe5fa12ec3c78b3634442d6eb6644828577a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="23dcb4803d3103bde3f3f5db978a726338fe49ae">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-compat-27.1.1_b7ca7782d97031b70cbc1f176d5c0fc9c159ff7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\android.arch.lifecycle-livedata-core-1.1.0_9bb50895c10ebc992a5b736f5d680a83bdd49195.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="3304d33470ff64cf83bce9189ff3648a42eb2aa7">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-27.1.1_43070caf947a6867ad49afefee13148bf7bab2fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="c9a721adcd7dbae7a197b0ef81102336539f63ff">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-27.1.1_26b5f12d3fef383c2683cf32a096fc3316e27e0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\16.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c12f232c712d9cf06a1346ea56046ebf1124e887">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-16.0.1_9f6fa77ad4ddd3c795e254e74e1f88787804d2be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\android.arch.lifecycle-runtime-1.1.0_7402f34d0cf9c91d67762a79f18b818e5f1bc2ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\common-1.1.0_154b0f5fa45592a501576b08b622212fa8047d60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\16.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9f2cbfd812a7cb084d3f997c5eb9727d05265c8e">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-16.1.0_38a7a89893fddfd0af464ac7fe4cc440bd072e6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\testfairy\testfairy-android-sdk\1.9.22\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0dab24ed856f804e9bef34fc64fb9e7842d42acd">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\testfairy-testfairy-android-sdk-1.9.22_186a2e7041f9b99bcfd7383ed1de398e92e59d25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\libs\com.google.zxing.client.android.captureactivity.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="92d1409f739c4ebcfbab79b2a11ec63d1bf668f5">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.zxing.client.android.captureactivity_0a70be71c049227e867005a14c0aed6c519f5c1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="88c68e5ef7c5ace393d014c9ec5fe736b1ca55cf">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-27.1.1_45698b20193387edadef4ec38ceeebd4467e2566.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\16.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="81c838a26a4bfbc0e4c59e75468fd9c7b10483a6">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-16.1.0_cb0d6e7b1195172cfb7ac45bd4a471ff5d80079f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\common-1.1.0_aef9868b892c985d82bdf2f1dd1ed565ee910253.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="874f1143c11f5d38533efe512bf913e3e847e7df">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-27.1.1_9998fc93a751604af35980a3259e94a6042947b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\android.arch.core\runtime\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\android.arch.core-runtime-1.1.0_62eb7f5bd830ebf2410cb4896ea2edc3d90456e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ec657bb192b20229696216bf233779b16bf75a54">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-27.1.1_befcfa94f866956f8642c0a444a00a5b715ada31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\android.arch.lifecycle-livedata-core-1.1.0_9bb50895c10ebc992a5b736f5d680a83bdd49195.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.3.0\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="df1a7a6af20c4eca090c1f535b77951ef6025bfb">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-6.3.0-debug_7b0b97a62c6697fb01df4484d02c2f8243a32920.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2feadd535770271ca57b7b431f42151aa4af324a">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-27.1.1_36cbe5fa12ec3c78b3634442d6eb6644828577a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\16.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="3625592fcddbb61001e595b85614ad66abbabeb7">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-16.2.0_359ca47b8b373cc44c0ff6729b0f40b354255fbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.1\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-27.1.1_762da8a004ce7c6c38401c2b9243f508abeba0b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\16.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5b9f57b1fb76487516b73b908f54c60c48202d84">
+        <dex dex="C:\Users\Christopher\Documents\NetBeansProjects\JIACPS\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-16.0.1_f27d0c8458d03aa0d38318e214e71567b57d2ea1.jar" />
+    </item>
+
+</items>

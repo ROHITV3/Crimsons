@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.testfairy.cordova-plugin" version="2.22.1">
+    <name>TestFairy Plugin</name>
+    <description>TestFairy SDK plugin for Cordova</description>
+    <license>Apache 2.0 License</license>
+    <engines>
+        <engine name="cordova" version=">=3.2.0" />
+    </engines>
+
+    <js-module src="www/testfairy.js" name="TestFairy">
+        <clobbers target="TestFairy" />
+    </js-module>
+
+    <access origin="*.testfairy.com" />
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="TestFairy">
+                <param name="ios-package" value="CDVTestFairy" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVTestFairy.h" />
+        <source-file src="src/ios/CDVTestFairy.m" />
+        <framework src="src/ios/TestFairy.framework" custom="true" embed="true"/>
+        <hook type="after_plugin_install" src="scripts/ios/strip-architectures.js" />
+        <framework src="CoreMedia.framework" />
+        <framework src="CoreMotion.framework" />
+        <framework src="AVFoundation.framework" />
+        <framework src="SystemConfiguration.framework" />
+        <framework src="OpenGLES.framework" />
+        <framework src="CoreLocation.framework" />
+    </platform>
+    <platform name="android">
+        <source-file src="src/android/CDVTestFairy.java" target-dir="src/com/testfairy" />
+        <framework src="testfairy:testfairy-android-sdk:1.9.22@aar" />
+        <config-file target="config.xml" parent="/*">
+            <feature name="TestFairy">
+                <param name="android-package" value="com.testfairy.CDVTestFairy" />
+            </feature>
+        </config-file>
+    </platform>
+</plugin>

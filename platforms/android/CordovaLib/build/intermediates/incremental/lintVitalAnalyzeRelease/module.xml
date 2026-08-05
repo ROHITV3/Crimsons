@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="G:\2026 ANDROID PROJECT\ACPS WORKING\not touch\Latest JIACPS\JIACPS\JIACPS\platforms\android\CordovaLib"
+    name=":CordovaLib"
+    type="LIBRARY"
+    maven="org.apache.cordova:CordovaLib:6.3.0"
+    agpVersion="8.4.2"
+    buildFolder="build"
+    bootClassPath="C:\Users\pc\AppData\Local\Android\Sdk\platforms\android-26\android.jar;C:\Users\pc\AppData\Local\Android\Sdk\build-tools\36.1.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-26"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
