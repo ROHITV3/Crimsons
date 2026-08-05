@@ -1,10 +1,10 @@
 // ✔
-window.localStorage["version"] = "1.4.0"; //set app version number
+window.localStorage["version"] = "0.1.10"; //set app version number
 // var network = "zonglipub"; //global variable that decides which databaseIP to connect to
 var initialheight; //used to record initial screen height
 //var databaseIP = 'http://203.125.7.40/JobAssignmentACPS'; //global databaseIP variable
-var databaseIP = 'http://www.test.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
-//var databaseIP = 'http://www.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
+//var databaseIP = 'http://www.test.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
+var databaseIP = 'http://www.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
 var lang; //global variable to store languageJson
 var spinnerDelay = 50;
 var appDirectory;
@@ -1203,14 +1203,15 @@ function login() {
 
                         if(data.data.gpsRefreshRate != undefined && data.data.gpsRefreshRate > 0){ // customer attributes GPSRefreshRate=60000s
                             gpsRate = data.data.gpsRefreshRate;
+                            cordova.plugins.backgroundMode.enable();
+                            cordova.plugins.backgroundMode.on('activate', function() {
+                            cordova.plugins.backgroundMode.disableWebViewOptimizations();
+                                                                                });
 
                         } else {
                             gpsRate = 60000; // reset back to original
                         }
-                         cordova.plugins.backgroundMode.enable();
-                                                    cordova.plugins.backgroundMode.on('activate', function() {
-                                                        cordova.plugins.backgroundMode.disableWebViewOptimizations();
-                                                    });
+
                         if (appDirectory != undefined && uploadDirectory != undefined) {
                             setTimeout(function () {
                                 loadJob("all");
