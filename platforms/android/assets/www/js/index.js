@@ -2,9 +2,9 @@
 window.localStorage["version"] = "0.1.10"; //set app version number
 // var network = "zonglipub"; //global variable that decides which databaseIP to connect to
 var initialheight; //used to record initial screen height
-//var databaseIP = 'http://203.125.7.40/JobAssignmentACPS'; //global databaseIP variable
+var databaseIP = 'http://203.125.7.40/JobAssignmentACPS'; //global databaseIP variable
 //var databaseIP = 'http://www.test.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
-var databaseIP = 'http://www.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
+//var databaseIP = 'http://www.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
 var lang; //global variable to store languageJson
 var spinnerDelay = 50;
 var appDirectory;
@@ -1087,6 +1087,7 @@ function changeLanguage(langcode) { // take live server's ip
             if (data.result) {
                 window.localStorage["language"] = langcode;
                 window.localStorage["languageJson"] = JSON.stringify(data.data);
+                console.log("lang"+JSON.stringify(data.data));
                 lang = JSON.parse(window.localStorage["languageJson"]);
                 setLanguage();
                 spinOut();
@@ -3408,6 +3409,7 @@ function openFileUploadFail(err) // will come to here when there is no more file
                              }
 
                              // Remove the failed job
+                             alert(jobFileText);
                              var index = tuploadQueue.indexOf(jobFileText);
                              if(index > -1) {
                                  tuploadQueue.splice(index, 1);
