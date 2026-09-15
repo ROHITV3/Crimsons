@@ -419,6 +419,7 @@ function setup() {
             }, lang.Mobile026, 'OK');
         }
     });
+
     $('.adhocBtn').bind('click', function () {
         var driverid = window.sessionStorage["userID"];
         var formtemplate_URL = databaseIP + "/Controller/mobile_controller.jsp?type=job&action=downloadFormTemplates&driver=" + driverid;
@@ -556,7 +557,81 @@ function setup() {
 
 //    downloader.init({folder: "ACPS", unzip: true});
 }
+   //multi role
+    function showDriverPopup(drivers) {
 
+        console.log("Multiple drivers found:", drivers);
+
+        // Remove existing popup if already created
+        $("#driverPopup").remove();
+
+        // Create popup completely from JavaScript
+        var popupHtml =
+            '<div data-role="popup" id="driverPopup" ' +
+            'class="ui-content" data-dismissible="false">' +
+
+            '<h3>Select Driver</h3>' +
+
+            '<select id="driverDropdown" ' +
+            'data-native-menu="false">' +
+            '</select>' +
+
+            '<br>' +
+
+            '<button id="driverSelectButton">' +
+            'Select' +
+            '</button>' +
+
+            '</div>';
+
+        // Add popup to page
+        $("body").append(popupHtml);
+
+        // Add drivers
+        $.each(drivers, function(index, driver) {
+
+            $("#driverDropdown").append(
+                $("<option></option>")
+                    .val(driver.id)
+                    .text(driver.name)
+            );
+
+        });
+
+        // Refresh jQuery Mobile controls
+        $("#driverDropdown").selectmenu();
+
+        // Create/open popup
+        $("#driverPopup").popup();
+
+        $("#driverPopup").popup("open");
+
+        // Select button
+        $("#driverSelectButton").off("click").on("click", function() {
+
+            var selectedDriverId =
+                $("#driverDropdown").val();
+
+            if (!selectedDriverId) {
+                alert("Please select a driver");
+                return;
+            }
+
+            // Store selected driver ID
+            window.sessionStorage["driver"] =
+                selectedDriverId;
+
+            console.log(
+                "Selected Driver ID:",
+                window.sessionStorage["driver"]
+            );
+
+            // Close popup
+            $("#driverPopup").popup("close");
+
+            // Continue your existing login flow here
+        });
+    }
 
 function confirmSort(response) {
     if (response == 2)
@@ -1118,35 +1193,147 @@ function setLanguage() {
     $("#languageHeader").html(lang.Mobile107);
     $("#main .lastUpdate").html(lang.Mobile023 + " <span>-</span>")
 }
+// driver popup
+function ensureDriverSelectPopup() {
+    if ($("#driverSelectPopup").length === 0) {
+        var popupHtml =
+            '<div data-role="popup" id="driverSelectPopup" data-theme="a" class="ui-corner-all" data-overlay-theme="b" style="max-width:350px;">' +
+                '<div style="padding: 15px;">' +
+                    '<h3>Select Driver</h3>' +
+                    '<select id="driverSelectDropdown" data-native-menu="false"></select>' +
+                    '<button id="driverSelectConfirmBtn" data-role="button" data-theme="b" style="margin-top:10px;">Confirm</button>' +
+                '</div>' +
+            '</div>';
+
+        // Append as a direct child of the #index page (jQm requires popups to be direct children of the page div)
+        $("#index").append(popupHtml);
+
+        // Enhance the newly-added markup so jQuery Mobile creates widgets for popup / button / select
+        $("#driverSelectPopup").trigger("create");
+    }
+}
+
+function showDriverSelectPopup(drivers, loginData) {
+    ensureDriverSelectPopup();
+
+    var $popup = $("#driverSelectPopup");
+    var $dropdown = $("#driverSelectDropdown");
+    $dropdown.empty();
+
+    drivers.forEach(function (drv, index) {
+        // Adjust the label field to whatever identifies a driver (name/username/driver)
+        var label = drv.driver || drv.username || ("Driver " + (index + 1));
+        $dropdown.append('<option value="' + index + '">' + label + '</option>');
+    });
+
+    // Refresh the select widget if jQm's custom selectmenu enhanced it
+    if ($dropdown.data("mobile-selectmenu")) {
+        $dropdown.selectmenu("refresh");
+    }
+
+    // Enhance the popup widget itself if it hasn't been already
+    if (!$popup.data("mobile-popup")) {
+        $popup.popup();
+    }
+
+    $popup.popup("open", { positionTo: "window" });
+
+    // Unbind previous handler to avoid stacking multiple bindings on repeated logins
+    $("#driverSelectConfirmBtn").off("click").on("click", function () {
+        var selectedIndex = parseInt($dropdown.val(), 10);
+        var selectedDriver = drivers[selectedIndex];
+        $popup.popup("close");
+        completeLogin(selectedDriver, loginData);
+    });
+}
+
+function completeLogin(driverObj, loginData) {
+    window.sessionStorage["userID"] = driverObj.id;
+    window.sessionStorage["username"] = driverObj.username;
+    window.sessionStorage["driver"] = driverObj.driver;
+    window.sessionStorage["assetId"] = driverObj.assetId;
+
+    writeLogs("\n Text=" + loginData.text + ", User=" + driverObj.username + ", ID=" + driverObj.id + ", Driver=" + driverObj.driver + ", AssetId=" + driverObj.assetId);
+    $("#unitId").hide();
+
+    if (driverObj.gpsRefreshRate != undefined && driverObj.gpsRefreshRate > 0) {
+        gpsRate = driverObj.gpsRefreshRate;
+        cordova.plugins.backgroundMode.enable();
+        cordova.plugins.backgroundMode.on('activate', function () {
+            cordova.plugins.backgroundMode.disableWebViewOptimizations();
+        });
+    } else {
+        gpsRate = 60000; // reset back to original
+    }
+
+    if (appDirectory != undefined && uploadDirectory != undefined) {
+        setTimeout(function () {
+            loadJob("all");
+            getUserLocation();
+            jobInterval = window.setInterval(function () {
+                loadJob("all");
+            }, refreshRate);
+            gpsInterval = window.setInterval(function () {
+                getUserLocation();
+            }, gpsRate);
+            pendingJobsRetryInterval = window.setInterval(function () {
+                sendPendingStatusUpdates();
+            }, 10000);
+            console.log("X7");
+            if (localStorage.getItem("uploadQueue") != "[]" && localStorage.getItem("uploadQueue") != null) {
+                writeLogs("Login, Initiate Job Queue, Jobs in Upload Queue : " + localStorage.getItem("uploadQueue"));
+                uploadInterval = setTimeout(function () {
+                    newUploadQueue();
+                }, uploadFirstCall);
+            }
+        }, 1000);
+    } else {
+        setTimeout(function () {
+            loadJob("all");
+            getUserLocation();
+            jobInterval = window.setInterval(function () {
+                loadJob("all");
+            }, refreshRate);
+            gpsInterval = window.setInterval(function () {
+                getUserLocation();
+            }, gpsRate);
+            pendingJobsRetryInterval = window.setInterval(function () {
+                sendPendingStatusUpdates();
+            }, 10000);
+            console.log("X8");
+            if (localStorage.getItem("uploadQueue") != "[]" && localStorage.getItem("uploadQueue") != null) {
+                uploadInterval = setTimeout(function () {
+                    newUploadQueue();
+                }, uploadFirstCall);
+            }
+        }, 400);
+    }
+
+    $.mobile.changePage("#main", { transition: "fade" });
+    spinOut();
+}
+
 
 function login() {
 
-
     var firstRun = checkFirstRun();
 
-    if (firstRun)
-    {
+    if (firstRun) {
         // do nothing
-    }
-    else
-    {
+    } else {
         navigator.notification.alert('Internet connectivity is required for first login.', function () {
-                }, 'Connection Required', 'OK');
+        }, 'Connection Required', 'OK');
         return;
     }
-     /*console.log("Current User-Agent: " + navigator.userAgent);*/
+    /*console.log("Current User-Agent: " + navigator.userAgent);*/
 
     var user = $('#loginUser').val(), password = $('#loginPassword').val(), unitid = $('#unitId').val();
     unitid = 'sst1';
     var deviceID = localStorage.getItem("deviceID");
     var deviceType = localStorage.getItem("deviceType");
 
-
-      console.log('unitidd test', localStorage.getItem("unitId"));
-
-      console.log('unitidd', unitid);
-
-
+    console.log('unitidd test', localStorage.getItem("unitId"));
+    console.log('unitidd', unitid);
 
     if (databaseIP.indexOf("http://www.v3nity.com:80/V3Nity3/") >= 0 || databaseIP.indexOf("http://www.v3nity.com/V3Nity3/") >= 0) // shifting everyone to V4 webservice
     {
@@ -1162,9 +1349,6 @@ function login() {
             var loginURL = databaseIP + "/Controller/mobile_controller.jsp?type=system&action=login&username=" + encodeURIComponent(user) + "&password=" + encodeURIComponent(password) + "&unitId=" + encodeURIComponent(unitid)
                                 + "&deviceId=" + encodeURIComponent(deviceID) + "&deviceType=" + encodeURIComponent(deviceType);
 
-            // var loginURL = databaseIP + "/Controller/mobile_controller.jsp?type=system&action=login&username=" + encodeURIComponent(user) + "&password=" + encodeURIComponent(password) + "&unitId=" + encodeURIComponent(unitid)
-              //                              + "&deviceId=" + "cWmIzFm6SZGE-N4YQvXxjV%3AAPA91bFsADsPamPPUzt6OP9XPQWGsxpkAHd6zEi_I3-usQBY82PsR4jIISGkCfyNdSuCxdNc_QRq_pG5kNOvEk" + "&deviceType=" + "1";
-
             console.log('loginUrl', loginURL);
 
             $.ajax({
@@ -1172,15 +1356,6 @@ function login() {
                 type: 'GET',
                 timeout: 60000,
                 success: function (data, textStatus, jqXHR) {
-
-               /*     alert("===== LOGIN RESPONSE  =====");
-
-                    alert("Status Code      : " + jqXHR.status);
-                    alert("Status Text      : " + jqXHR.statusText);
-
-                    alert("Response Headers : " + jqXHR.getAllResponseHeaders());
-
-                    alert("Response Text    : " + jqXHR.responseText);*/
 
                     console.log("Status:", jqXHR.status);
                     console.log("Headers:", jqXHR.getAllResponseHeaders());
@@ -1194,69 +1369,16 @@ function login() {
                         window.localStorage['loginPassword'] = password;
                         window.localStorage['unitId'] = unitid;
 
-                        window.sessionStorage["userID"] = data.data.id;
-                        window.sessionStorage["username"] = data.data.username;
-                        window.sessionStorage["driver"] = data.data.driver;
-                        window.sessionStorage["assetId"] = data.data.assetId;
-                        //console.log("Text=" + data.text + ", User=" + data.data.username + ", ID=" + data.data.id + ", Driver=" + data.data.driver + ", AssetId=" + data.data.assetId);
-                        writeLogs("\n Text=" + data.text + ", User=" + data.data.username + ", ID=" + data.data.id + ", Driver=" + data.data.driver + ", AssetId=" + data.data.assetId);
-                        $("#unitId").hide();
+                        var driverData = data.data;
 
-                        if(data.data.gpsRefreshRate != undefined && data.data.gpsRefreshRate > 0){ // customer attributes GPSRefreshRate=60000s
-                            gpsRate = data.data.gpsRefreshRate;
-                            cordova.plugins.backgroundMode.enable();
-                            cordova.plugins.backgroundMode.on('activate', function() {
-                            cordova.plugins.backgroundMode.disableWebViewOptimizations();
-                                                                                });
-
+                        if (Array.isArray(driverData) && driverData.length > 1) {
+                            // Multiple drivers returned — show popup for selection
+                            showDriverSelectPopup(driverData, data);
                         } else {
-                            gpsRate = 60000; // reset back to original
+                            // Single driver (object) OR array with just one entry — behave as before
+                            var chosenDriver = Array.isArray(driverData) ? driverData[0] : driverData;
+                            completeLogin(chosenDriver, data);
                         }
-
-                        if (appDirectory != undefined && uploadDirectory != undefined) {
-                            setTimeout(function () {
-                                loadJob("all");
-                                getUserLocation();
-                                jobInterval = window.setInterval(function () {
-                                    loadJob("all");
-                                }, refreshRate);
-                                gpsInterval = window.setInterval(function () {
-                                    getUserLocation();
-                                }, gpsRate);
-                                pendingJobsRetryInterval = window.setInterval(function () {
-                                    sendPendingStatusUpdates();
-                                }, 10000);
-                                console.log("X7");
-                                if (localStorage.getItem("uploadQueue") != "[]" && localStorage.getItem("uploadQueue") != null) { //if there is files in the uploadQueue
-                                    writeLogs("Login, Initiate Job Queue, Jobs in Upload Queue : " + localStorage.getItem("uploadQueue"));
-                                    uploadInterval = setTimeout(function () {
-                                        newUploadQueue();
-                                    }, uploadFirstCall);
-                                }
-                            }, 1000);
-                        } else {
-                            setTimeout(function () {
-                                loadJob("all");
-                                getUserLocation();
-                                jobInterval = window.setInterval(function () {
-                                    loadJob("all");
-                                }, refreshRate);
-                                gpsInterval = window.setInterval(function () {
-                                    getUserLocation();
-                                }, gpsRate);
-                                pendingJobsRetryInterval = window.setInterval(function () {
-                                    sendPendingStatusUpdates();
-                                }, 10000);
-                                console.log("X8");
-                                if (localStorage.getItem("uploadQueue") != "[]" && localStorage.getItem("uploadQueue") != null) { //if there is files in the uploadQueue
-                                    uploadInterval = setTimeout(function () {
-                                        newUploadQueue();
-                                    }, uploadFirstCall);
-                                }
-                            }, 400);
-                        }
-                        $.mobile.changePage("#main", {transition: "fade"});
-                        spinOut();
                     } else {
                         navigator.notification.alert(lang.Mobile007 + "\n" + data.text, function () {
                         }, lang.Mobile006, 'OK');
@@ -1264,10 +1386,11 @@ function login() {
                         $('#loginPassword').focus();
                         spinOut();
                     }
-                    if(data.data.wifiAttribute != undefined){ // Customer attributes MobileWifi=1
+
+                    if (data.data.wifiAttribute != undefined) { // Customer attributes MobileWifi=1
                         if (data.data.wifiAttribute == 1) {
                             cordova.plugins.backgroundMode.enable();
-                            cordova.plugins.backgroundMode.on('activate', function() {
+                            cordova.plugins.backgroundMode.on('activate', function () {
                                 cordova.plugins.backgroundMode.disableWebViewOptimizations();
                             });
                             wifiAttribute = 1;
@@ -1281,37 +1404,15 @@ function login() {
                 error: function (error, errorText, errorThrown) {
                     console.log("Error: " + error.responseText + " errorText: " + errorText + " errorThrown: " + errorThrown);
 
-    alert("===== LOGIN ERROR =====");
+                    alert("===== LOGIN ERROR =====");
+                    alert("Status Code      : " + error.status);
+                    alert("Status Text      : " + error.statusText);
 
+                    console.log("Status:", error.status);
+                    console.log("Headers:", error.getAllResponseHeaders());
+                    console.log("Response:", error.responseText);
+                    console.log(error);
 
-    alert("Status Code      : " + error.status);
-    alert("Status Text      : " + error.statusText);
-
-    /*alert("Response Headers : " + error.getAllResponseHeaders());*/
-
-  /*  alert("Response Text    : " + error.responseText);
-
-    alert("Error Text       : " + errorText);
-    alert("Error Thrown     : " + errorThrown);
-
-    alert("Ready State      : " + error.readyState);
-
-    alert("Online           : " + navigator.onLine);
-    alert("User Agent       : " + navigator.userAgent);*/
-
-    console.log("Status:", error.status);
-    console.log("Headers:", error.getAllResponseHeaders());
-    console.log("Response:", error.responseText);
-    console.log(error);
-                    /*
-                     * This behavior below is removed for ACPS.
-
-                    localStorage.removeItem('loginUser'); //remove loginUser from localStorage
-                    localStorage.removeItem('loginPassword'); //remove loginPassword from localStorage
-                    $("#loginUser").val(''); //clear loginUser field
-/                   $("#loginPassword").val(''); // clear loginPassword field
-
-                    */
                     navigator.notification.alert(lang.Mobile009, function () {
                     }, lang.Mobile008, 'OK');
                     spinOut();
@@ -1326,9 +1427,9 @@ function login() {
                 }, lang.Mobile010, 'OK');
             }
             else if (unitid.length == 0) {
-               navigator.notification.alert('Please enter your unit ID.', function () {
-               }, lang.Mobile010, 'OK');
-           }
+                navigator.notification.alert('Please enter your unit ID.', function () {
+                }, lang.Mobile010, 'OK');
+            }
         }
     } else {
         navigator.notification.alert(lang.Mobile014, function () {
@@ -3409,7 +3510,7 @@ function openFileUploadFail(err) // will come to here when there is no more file
                              }
 
                              // Remove the failed job
-                             alert(jobFileText);
+
                              var index = tuploadQueue.indexOf(jobFileText);
                              if(index > -1) {
                                  tuploadQueue.splice(index, 1);
@@ -4515,7 +4616,7 @@ function queueJob(html_file)
             }
         });
     }
-//    function updateUploading() // will come to here when there is no more file to read from.
+//    function lo() // will come to here when there is no more file to read from.
 //    {
 //        //console.log('Completed opening file series for upload: ' + jobBeingUploaded);
 //        console.log('New code *******');
