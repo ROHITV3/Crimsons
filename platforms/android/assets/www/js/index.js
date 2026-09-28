@@ -2,9 +2,9 @@
 window.localStorage["version"] = "0.1.10"; //set app version number
 // var network = "zonglipub"; //global variable that decides which databaseIP to connect to
 var initialheight; //used to record initial screen height
-var databaseIP = 'http://203.125.7.40/JobAssignmentACPS'; //global databaseIP variable
+//var databaseIP = 'http://203.125.7.40/JobAssignmentACPS'; //global databaseIP variable
 //var databaseIP = 'http://www.test.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
-//var databaseIP = 'http://www.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
+var databaseIP = 'http://www.developtt.gov.tt/JobAssignmentACPS/'; //global databaseIP variable
 var lang; //global variable to store languageJson
 var spinnerDelay = 50;
 var appDirectory;
@@ -29,6 +29,7 @@ var $drawdiv;
 var uploadCount = 0;
 var logDirectory;
 var wifiAttribute = 0;
+
 
 
 
@@ -226,13 +227,20 @@ function setup() {
                 console.log("Upload directory initialized.");
             }, fail);
 
-            appDirectory.getDirectory("Log", {create: true, exclusive: true}, function (directory) { //check if there is a log folder, if yes goto error handler, else create
-                afterGetDirectory(directory);
-            }, function getFile(error) {
-                console.log("Log directory Error: " + error.code);
-                appDirectory.getDirectory("Log", {create: false} , function(directory){
+            window.resolveLocalFileSystemURL(cordova.file.externalRootDirectory + 'Download/', function(downloadDir) {
+                downloadDir.getDirectory("ACPS", {create: true, exclusive: false}, function(directory) {
                     afterGetDirectory(directory);
                 }, fail);
+            }, function() {
+                // Fallback: use ACPS/Log in persistent storage if Downloads is not accessible
+                appDirectory.getDirectory("Log", {create: true, exclusive: true}, function (directory) {
+                    afterGetDirectory(directory);
+                }, function getFile(error) {
+                    console.log("Log directory Error: " + error.code);
+                    appDirectory.getDirectory("Log", {create: false}, function(directory){
+                        afterGetDirectory(directory);
+                    }, fail);
+                });
             });
         }, fail);
     }, fail);
@@ -3419,6 +3427,134 @@ function openSingleFileForUpload(file) // this will loop through all the diff fi
     reader.readAsText(file);
 }
 
+//function openFileUploadFail(err) // will come to here when there is no more file to read from.
+//{
+//    //console.log('Completed opening file series for upload: ' + jobBeingUploaded);
+//    console.log('Old code *********');
+//    var id = jobBeingUploaded.split("_")[0];
+//    console.log('jobBeingUploaded *********',jobBeingUploaded);
+//    var jobFileText = jobBeingUploaded;
+//    writeLogs("openFileUploadFail, Completed opening file series for upload: jobBeingUploaded " + jobBeingUploaded );
+//    var driver_id = window.sessionStorage["userID"];
+//    var asset_id = window.sessionStorage["assetId"];
+//    var version_no = localStorage.getItem("version");
+//
+//    var endedStatus = "8";
+//    var details = Base64.encode(uploadedJobAllHtml);
+//    var JSONText = {};
+//
+//    JSONText.job_id = parseInt(id);
+//    JSONText.driver_id = parseInt(driver_id);
+//    JSONText.asset_id = parseInt(asset_id); //xxxx
+//    JSONText.version_no = version_no;
+//    JSONText.status_id = parseInt(endedStatus);
+//    JSONText.details = details;
+//    JSONText = JSON.stringify(JSONText);
+//
+////    console.log(details)
+//
+//        // Force HTTPS for upload — production HTTP endpoint returns 413 on large payloads
+//        // and Android 16 WebView drops POST body on HTTP→HTTPS redirect (per HTTP spec)
+//        var upload_base = databaseIP.replace(/^http:\/\//i, 'https://');
+//        var upload_url = upload_base + "/Controller/mobile_controller.jsp?type=job&action=upload&jobId=" + id + "&assetId=" + asset_id + "&detailsLength=" + details.length + "&driverId=" + driver_id;
+//
+//    console.log('upload_url:',upload_url);
+//    console.log('Uploading ' + jobBeingUploaded);
+////    console.log('upload_url: ' + upload_url);
+//    console.log('JSONText: ' + JSONText);
+////
+//
+//    $.ajax({
+//        type: 'POST',
+//        url: upload_url,
+//        data: JSONText,
+//        contentType: "application/json",
+//        dataType: "json",
+//        cache: false,
+//        timeout: 300000, // 30000
+//        beforeSend: function (){
+//          writeLogs("openFileUploadFail, uploading file Name = " +  jobBeingUploaded);
+//        },
+//        success: function (data)
+//        {
+//            console.log('Uploading data result: ' + data.result);
+//            console.log("Result", JSON.stringify(data))
+//            console.log("CHX_DATA:" + JSON.stringify(data));
+//            if (data.result)
+//            {
+//                resetFormDeleter();
+//                newDeleteFile(jobFileText, 0);
+//                // TODO
+//                var tuploadQueue = [];
+//                console.log("X11");
+//                if (localStorage.getItem("uploadQueue") != "[]" && localStorage.getItem("uploadQueue") != null) {
+//                    tuploadQueue = JSON.parse(window.localStorage["uploadQueue"]).toString().split(",");
+//                }
+//
+//                if(tuploadQueue[0] == jobFileText)  {
+//                    tuploadQueue.shift();
+//                }
+//
+//                window.localStorage["uploadQueue"] = JSON.stringify(tuploadQueue);
+//               console.log("DEBUG10:",index)
+//                $('.uploadCount span').html(tuploadQueue.length); //update Upload count
+//                clearTimeout(uploadInterval); // not to have two instant of uploadInterval occuring at the same time, therefore, clear first before re-initatiate.
+//                uploadInterval = setTimeout(function () {
+//                    newUploadQueue();
+//                }, uploadDelay); //calls again after 30seconds
+////
+////                setTimeout(function () {
+////                    newUploadQueue();
+////                }, uploadDelay); //calls again after 30seconds
+//                writeLogs("openFileUploadFail, Successfully Upload Job to Server : " + data.result + " Job id " + id );
+//            }
+//            else  {
+//                     // job failed  due to pdf not upload
+//                     var jobId = jobFileText.split("_")[0];
+//                     navigator.notification.alert(
+//                         "Job #" + jobId + " upload failed. Please submit the job again.",
+//                         function () {
+//                             // Remove job from uploadQueue
+//                             var tuploadQueue = [];
+//                             if (localStorage.getItem("uploadQueue") != "[]" && localStorage.getItem("uploadQueue") != null) {
+//                                 tuploadQueue = JSON.parse(window.localStorage["uploadQueue"]).toString().split(",");
+//                             }
+//
+//                             // Remove the failed job
+//
+//                             var index = tuploadQueue.indexOf(jobFileText);
+//                             if(index > -1) {
+//                                 tuploadQueue.splice(index, 1);
+//                             }
+//
+//                             window.localStorage["uploadQueue"] = JSON.stringify(tuploadQueue);
+//                             $('.uploadCount span').html(tuploadQueue.length);
+//
+//                             // Reload job list so failed job appears
+//                             loadJob("all");
+//                             $.mobile.changePage("#main", {transition: 'fade'});
+//                         },
+//                         "Upload Failed",
+//                         "OK"
+//                     );
+//
+//                     clearTimeout(uploadInterval);
+//                     uploadInterval = setTimeout(function () { newUploadQueue(); }, uploadDelay);
+//
+//                     writeLogs("openFileUploadFail, Upload Job to Server Data Result False, removed from upload queue. Job id = " + id);
+//                 }
+//        },
+//        error: function (error, errorText, errorThrown) {
+//            //console.log("upload job error: " + error.responseText + " errorText: " + errorText + " errorThrown: " + errorThrown);
+//            writeLogs("openFileUploadFail, upload job error: " + error + " errorText: " + errorText + " errorThrown: " + errorThrown + " job_id " + id);
+//            clearTimeout(uploadInterval);
+//                uploadInterval = setTimeout(function () {
+//                    newUploadQueue();
+//                }, uploadDelay);
+//            changeArraySequence();
+//        }
+//    });
+
 function openFileUploadFail(err) // will come to here when there is no more file to read from.
 {
     //console.log('Completed opening file series for upload: ' + jobBeingUploaded);
@@ -3427,6 +3563,9 @@ function openFileUploadFail(err) // will come to here when there is no more file
     console.log('jobBeingUploaded *********',jobBeingUploaded);
     var jobFileText = jobBeingUploaded;
     writeLogs("openFileUploadFail, Completed opening file series for upload: jobBeingUploaded " + jobBeingUploaded );
+    navigator.notification.alert("Uploading Job ID: " + id, null, "Uploading", "OK");
+    writeLogs("Uploading Job ID: " + id);
+    //alert("Uploading Job ID: " + id);
     var driver_id = window.sessionStorage["userID"];
     var asset_id = window.sessionStorage["assetId"];
     var version_no = localStorage.getItem("version");
@@ -3445,8 +3584,12 @@ function openFileUploadFail(err) // will come to here when there is no more file
 
 //    console.log(details)
 
-    var upload_url = databaseIP + "/Controller/mobile_controller.jsp?type=job&action=upload&jobId=" + id + "&assetId=" + asset_id + "&detailsLength=" + details.length + "&driverId=" + driver_id;
+    // Force HTTPS for upload — production HTTP endpoint returns 413 on large payloads
+    // and Android 16 WebView drops POST body on HTTP→HTTPS redirect (per HTTP spec)
+    var upload_base = databaseIP.replace(/^http:\/\//i, 'https://');
+    var upload_url = upload_base + "/Controller/mobile_controller.jsp?type=job&action=upload&jobId=" + id + "&assetId=" + asset_id + "&detailsLength=" + details.length + "&driverId=" + driver_id;
 
+    writeLogs("openFileUploadFail, payload size: " + details.length + " bytes (" + (details.length / 1024).toFixed(1) + " KB)");
     console.log('upload_url:',upload_url);
     console.log('Uploading ' + jobBeingUploaded);
 //    console.log('upload_url: ' + upload_url);
@@ -3464,11 +3607,12 @@ function openFileUploadFail(err) // will come to here when there is no more file
         beforeSend: function (){
           writeLogs("openFileUploadFail, uploading file Name = " +  jobBeingUploaded);
         },
-        success: function (data)
+        success: function (data, textStatus, jqXHR)
         {
             console.log('Uploading data result: ' + data.result);
             console.log("Result", JSON.stringify(data))
             console.log("CHX_DATA:" + JSON.stringify(data));
+            writeLogs("openFileUploadFail, HTTP status: " + jqXHR.status + " responseText: " + jqXHR.responseText.substring(0, 500));
             if (data.result)
             {
                 resetFormDeleter();
@@ -3534,13 +3678,34 @@ function openFileUploadFail(err) // will come to here when there is no more file
                  }
         },
         error: function (error, errorText, errorThrown) {
-            //console.log("upload job error: " + error.responseText + " errorText: " + errorText + " errorThrown: " + errorThrown);
             writeLogs("openFileUploadFail, upload job error: " + error + " errorText: " + errorText + " errorThrown: " + errorThrown + " job_id " + id);
+
+            // Track retry count per job to avoid infinite loop
+            var retryKey = "uploadRetry_" + jobFileText;
+            var retryCount = parseInt(localStorage.getItem(retryKey) || "0") + 1;
+            localStorage.setItem(retryKey, retryCount);
+
+            if (retryCount >= 3) {
+                // Remove job from queue after 3 failed attempts
+                localStorage.removeItem(retryKey);
+                var tuploadQueue = [];
+                if (localStorage.getItem("uploadQueue") != "[]" && localStorage.getItem("uploadQueue") != null) {
+                    tuploadQueue = JSON.parse(window.localStorage["uploadQueue"]).toString().split(",");
+                }
+                var failIdx = tuploadQueue.indexOf(jobFileText);
+                if (failIdx > -1) { tuploadQueue.splice(failIdx, 1); }
+                window.localStorage["uploadQueue"] = JSON.stringify(tuploadQueue);
+                $('.uploadCount span').html(tuploadQueue.length);
+                writeLogs("openFileUploadFail, removed after 3 retries: " + jobFileText);
+                navigator.notification.alert("Job #" + id + " could not be uploaded after 3 attempts. Please re-submit.", function () {}, "Upload Failed", "OK");
+            } else {
+                changeArraySequence();
+            }
+
             clearTimeout(uploadInterval);
-                uploadInterval = setTimeout(function () {
-                    newUploadQueue();
-                }, uploadDelay);
-            changeArraySequence();
+            uploadInterval = setTimeout(function () {
+                newUploadQueue();
+            }, uploadDelay);
         }
     });
     function changeArraySequence(){
@@ -4011,7 +4176,7 @@ function newUploadQueue()
     writeLogs("newUploadQueue, checking Uploadqueue for files" + localStorage.getItem("uploadQueue"));
     console.log("uploadQueue count:",localStorage.getItem("uploadQueue"));
     console.log("X13");
-    if (localStorage.getItem("uploadQueue") != [""] && localStorage.getItem("uploadQueue") != null)
+    if (localStorage.getItem("uploadQueue") != "[]" && localStorage.getItem("uploadQueue") != null)
     {
         var tuploadQueue = [];
         tuploadQueue = JSON.parse(window.localStorage["uploadQueue"]).toString().split(",");
@@ -4027,9 +4192,7 @@ function newUploadQueue()
         }
         else
         {
-            //console.log("uploadqueue: Empty html_file id. Removed and updated uploadQueue.");
             writeLogs("uploadqueue: Empty html_file id. Removed and updated uploadQueue.");
-            // TODO uncommented this part for fixing stuck upload , need to investigate more on this
             tuploadQueue.shift();
             window.localStorage["uploadQueue"] = JSON.stringify(tuploadQueue);
             console.log("HTML File empty...");
@@ -4042,6 +4205,7 @@ function newUploadQueue()
     }
     else
     {
+        writeLogs("newUploadQueue, no more files to upload.");
         console.log("No more files to upload.");
     }
 }
